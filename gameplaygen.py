@@ -3,7 +3,7 @@ import base64
 import os
 import requests
 
-testKey = "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"
+testKey = ""
 openai.api_key = testKey
 #file = open("result.txt", "r")
 #story = ""
