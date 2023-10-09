@@ -1,0 +1,2 @@
+4. Subsequent levels will bring the player to different historical eras where they interact with important personas.
+better prompt: "An overhead view of a pixel-art styled video game level highlighting different historical eras. Each era should feature cute pixelated versions of crucial historical figures for the player's interaction."

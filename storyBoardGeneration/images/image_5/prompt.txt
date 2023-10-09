@@ -1,0 +1,2 @@
+6. When all artefacts are collected, the player returns to their own time and places the artefacts in a museum on the farm, demonstrating how the understanding of agriculture has evolved.
+better prompt: "Top-down view of a whimsical pixel art museum nestled within a vibrant farm. The museum's exhibit holds a collection of diverse agricultural artefacts placed carefully in display cases, showcasing the evolution of farming through the ages. The player character is seen returning to the farm, holding the final artefact to complete the collection."

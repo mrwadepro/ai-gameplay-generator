@@ -1,0 +1,7 @@
+. The player moves around his farm, finds clues and parts of the time machine.
+2. After assembling the time machine, the player uses time machine, reaches the era of Native Americans.
+3. The player sees the native American farmer, interacts and learns their farming techniques.
+4. Subsequent levels will bring the player to different historical eras where they interact with important personas.
+5. The player helps these historical figures solve their problems using knowledge of agriculture and collects artefacts.
+6. When all artefacts are collected, the player returns to their own time and places the artefacts in a museum on the farm, demonstrating how the understanding of agriculture has evolved.
+7. The museum becomes a place for learning and demonstrating the importance of agriculture to the local community.

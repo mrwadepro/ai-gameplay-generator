@@ -1,0 +1,2 @@
+. The player moves around his farm, finds clues and parts of the time machine.
+better prompt: "A top-down view of a cute, pixel art style video game, where the playable character explores a colorful farm, encountering various clues and time machine parts scattered around the landscape."
