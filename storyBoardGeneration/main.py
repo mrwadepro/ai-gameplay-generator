@@ -1,7 +1,8 @@
 import openai
+import os
 
 
-testKey = "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"
+testKey = os.environ.get('API_KEY')
 openai.api_key = testKey
 
 URL = "https://api.openai.com/v1/chat/completions/"

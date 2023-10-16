@@ -2,8 +2,10 @@ import openai
 import base64
 import os
 
-testKey = "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"
+testKey = os.environ.get('API_KEY')
+#print(testKey)
 openai.api_key = testKey
+breakpoint()
 file = open("result.txt", "r")
 #story = ""
 for i,a in enumerate(file.readlines()):
