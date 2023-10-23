@@ -1,0 +1,22 @@
+prompt: You will create educational minigames based off the learning goals. The learning goals are what the student should learn by the end of the minigame. Each learning goal has a minigame. Each learning goal will have sub-goals. The student must have learned every sub-goal associated with it's learning goal to be considered having learned the learning goal. Each sub-goal must be covered in a minigame. The minigame for each learning goal must include each subgoal. Each minigame should have the learning goal code, a description, game mechanics, and a game flow that goes through what the player does, and the sub-goals.
+
+Minigame 1: 
+Learning Goal Code: AS.01.01
+Description: This interactive game will teach students about the origins, domestication, and distribution of farm animals.
+Game Mechanics: The game will consist of collecting cards containing information about different animals. The player can learn about each animal's history, the region where it was first domesticated, and the area it lives in today. There will be a map where players can place the animals in their corresponding regions as they learn about them.
+Game Flow: The player begins with a set of animal cards. They select an animal card to learn more about its origin, domestication, and distribution. After acquiring enough information about the animal, they must place them on the map. The game continues until the player has learned about all the animals and placed each one on the map.
+
+Sub-Goal 1: Recognize the animal's origin, domestication, and distribution - Each animal card contains this information, and the map placement reinforces this learning.
+Sub-Goal 2: Evaluate the impact of domestication and distribution on current animal production practices - Throughout the game, the student will find hints on how domestication and distribution impact current farming practices. Successfully placing the animal in the proper location indicates an understanding of these impacts.
+
+Minigame 2: 
+Learning Goal Code: CCSS.MATH.CONTENT.HSA.SSE.1
+Description: This game will facilitate the interpretation of mathematical expressions.
+Game Mechanics: The player will be given mathematical expressions and will need to identify its structure and parts like coefficients, factors, and variables.
+Game Flow: The player will be shown an expression. They will have to interpret the terms, factors, and coefficients, then enter the correct interpretation. The player will proceed to the next level for each correct answer.
+
+Sub-Goal 1: Identify and interpret parts of an expression - The player needs to correctly identify the parts to progress, reinforcing this learning goal.
+Sub-Goal 2: Learn to view parts of an expression as a single entity - As expressions become more complex, players will need to build this skill to identify full parts and understand the expression's overall structure.
+
+Each mini-game covers its associated learning goal and sub-goals, and uses gameplay to reinforce learning. This combination of entertainment and education can make learning these topics more fun and engaging for students.
+
