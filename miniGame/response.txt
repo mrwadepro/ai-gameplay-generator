@@ -20,3 +20,108 @@ Sub-Goal 2: Learn to view parts of an expression as a single entity - As express
 
 Each mini-game covers its associated learning goal and sub-goals, and uses gameplay to reinforce learning. This combination of entertainment and education can make learning these topics more fun and engaging for students.
 
+prompt: You will create educational minigames based off the learning goals. The learning goals are what the student should learn by the end of the minigame. Each learning goal has a minigame. Each learning goal will have sub-goals. The student must have learned every sub-goal associated with it's learning goal to be considered having learned the learning goal. Each sub-goal must be covered in a minigame. The minigame for each learning goal must include each subgoal. Each minigame should have the learning goal code, a description, game mechanics, and a game flow that goes through what the player does, and the sub-goals.
+
+Minigame: Animal Origin Memory Match 
+Code: AS.01.01.01.a 
+Description: This is a card-matching game where players have to match animal species with their correct origin, significance, distribution, and domestication process. 
+Game Mechanic: The game is played by flipping over two cards at a time with the goal of finding pairs. When a matching pair is found, a brief explanation shows, connecting the animals and their origin, distribution or domestication process. Once a match is found, it is removed or marked on the game board.
+Game Flow: Start -> Flip card 1 -> Flip card 2 -> If match, show explanation, remove/marked in the board, points get added -> If not, flips back over -> Repeat until all pairs are found.
+Sub-Goals: Students will identify and summarize the origins, significance, distribution and domestication process of various animal species.
+
+Minigame: Animal Welfare Rescue
+Code: AS.02.01.01.a
+Description: A virtual game where players have to identify the conditions that are either good/bad for animal welfare in different farm settings. 
+Game Mechanic: Players get different scenarios with various animals facing different conditions. They should interact with the virtual environment to improve the animal's well-being.
+Game Flow: Start -> Scenario displays -> Identify condition -> Improve condition by selecting appropriate actions -> Next scenario.
+Sub-Goals: Understanding the implications of animal welfare and identifying conditions that ensure animal welfare.
+
+Minigame: Eat Right for the Fight 
+Code: AS.03.01.01.a 
+Description: In this puzzle-based game, players must identify and match the essential nutrients required for different types of animals.
+Game Mechanic: Players will be given a virtual animal and a variety of nutrients. They must select the proper nutrients needed for that specific animal's health, growth, and performance. 
+Game Flow: Start -> Animal appears -> Select correct nutrients -> If correct, move to next level -> If incorrect, try again.
+Sub-Goals: Identifying essential nutrients required for animal health and understanding their role in growth and performance.
+
+Minigame: Expression Exploration 
+Code: CCSS.MATH.CONTENT.HSA.SSE.1 
+Description: A multi-level puzzle game where players have to interpret mathematical expressions based on given contexts to solve problems.
+Game Mechanic: The player will be given different expressions and a context. They have to interpret the expression based on the context to solve the problem and progress in the game.
+Game Flow: Start -> Expression displays with context -> Interpret expression -> Input answer -> If correct, advance to the next level -> If not, try again.
+Sub-Goals: Understanding expressions that represent a quantity in terms of its context, interpreting parts of an expression, and interpreting complicated expressions as a whole or part entity.
+
+prompt: You will create educational minigames based off the learning goals. The learning goals are what the student should learn by the end of the minigame. Each learning goal has a minigame. Each learning goal will have sub-goals. The student must have learned every sub-goal associated with it's learning goal to be considered having learned the learning goal. Each sub-goal must be covered in a minigame. The minigame for each learning goal must include each subgoal. Each minigame should have the learning goal code, a description, game mechanics, a game flow that goes through what the player does, and the sub-goals.
+
+Learning Goal Code: AS.01.01 
+
+Game Description: This game will allow players to travel through time to explore the origin, significance, distribution and domestication of different animal species and understand their implications on production practices and the environment.
+
+Game Mechanics: Players will move through different eras, interact with various environments to domesticate different animal species. They will have tools and information to evaluate the impacts of these animal's adaptations on environment and production methods.
+
+Game Flow: The player starts by choosing an animal species. They will travel time and observe the conditions that led to this species' domestication. Each round will focus on a different epoch and a new animal. By the end, the player should have a clear picture of how animals developed their characteristics, contributed to ecosystems and influenced our production methods.
+
+Sub-goals:
+
+- AS.01.01.01.a: Identify and summarize the origin, significance, distribution and domestication of different animal species.
+- AS.01.01.01.b: Evaluate and describe characteristics of animals that developed in response to the animal's environment and led to their domestication.
+- AS.01.01.01.c: Evaluate the implications of animal adaptations on production practices and the environment.
+
+---
+Learning Goal Code: AS.01.02 
+
+Game Description: This strategy game tasks players with implementing and managing diverse animal production methods, while considering their impacts and effectiveness.
+
+Game Mechanics: Players will oversee a virtual farm where they can implement different animal production methods and monitor their impact on the animals, the environment, and the farm’s productivity. They will have to choose between conventional and organic methods, balance cost and efficiency, and respond to changing market demands to ensure the success of their farm.
+
+Game Flow: The player starts with a bare farm and a small budget. They can use the budget to buy animals and assign production methods to different areas on their farm. The player's decisions will affect the farm’s productivity, the animals' health, and the environment.
+
+Sub-goals:
+
+- AS.01.02.01.a: Identify and categorize terms and methods related to animal production (e.g. conventional, humanely raised, natural, organic, etc).
+- AS.01.02.01.b: Analyze the impact of animal production methods on end product qualities (e.g. sustainability, marketing, labeling, animal welfare, etc).
+- AS.01.02.01.c: Evaluate the effectiveness of different production methods and defend the use of selected methods using data and evidence.
+
+---
+Learning Goal Code: CCSS.MATH.CONTENT.HSA.SSE.1 
+
+Game Description: A math adventure game where the player travels the universe, solving algebraic puzzles and interpreting expressions in terms of their context.
+
+Game Mechanics: The player has to solve a series of algebraic puzzles, by interpreting the parts of expressions, such as terms, factors, and coefficients. The puzzles get increasingly difficult as the game progresses.
+
+Game Flow: The player starts on Earth and travels to different planets, each with a different set of puzzles. The expressions are presented in context of the game's storyline, forcing the player to interpret them in a real-world context.
+
+Sub-goals:
+
+- CCSS.MATH.CONTENT.HSA.SSE.1.a: Interpret parts of an expression, such as terms, factors, and coefficients.
+- CCSS.MATH.CONTENT.HSA.SSE.1.b: Interpret complicated expressions by viewing one or more of their parts as a single entity.
+
+prompt: You will create educational minigames based off the learning goals. The learning goals are what the student should learn by the end of the minigame. Each learning goal has a minigame. Each learning goal will have sub-goals. The student must have learned every sub-goal associated with it's learning goal to be considered having learned the learning goal. Each sub-goal must be covered in a minigame. The minigame for each learning goal must include each subgoal. Each minigame should have the learning goal code, a description, game mechanics, a game flow that goes through what the player does, and the sub-goals.
+
+MINIGAME 1:
+Learning Goal Code: AS.01.01.01.a
+Description: This game is an "Animal Origin Explorer" where players have to identify and summarize the origin and distribution of different animal species in various geographical locations.
+Game Mechanics: The player uses controls to navigate a map of the world. As they explore different regions, they encounter various animals and must use clues and research tools provided within the game to identify the animal and its origin. 
+Game Flow: The player starts with a blank world map and must fill it with the animals they discover. They have a 'research notebook' to gather and summarize their findings. Correct entries earn points, with extra points for finding rare animals or correctly identifying tricky ones. 
+Sub-Goals: This game addresses the following sub-goals - Identifying major animal species, their traits, and geographical distribution; Performing research to gather information about these species; Summarizing information accurately in the 'research notebook'.
+
+MINIGAME 2:
+Learning Goal Code: AS.01.02.01.b
+Description: "Farm Impact" is a strategy game that requires players to analyze the impact of different animal production methods on end product qualities and the environment.
+Game Mechanics: The player manages a virtual farm, choosing between different animal production methods (e.g. free-range, organic) and dealing with various challenges and factors affecting production and crop health.
+Game Flow: The player starts with a small farm and a budget to invest in livestock. They must make strategic decisions about production methods and manage resources to maximize yield. The game provides feedback on the environmental and marketing effects of their choices. 
+Sub-Goals: This game addresses the following sub-goals - Understanding different animal production methods: Assessing the impact of these methods on product quality, environmental health, and sales: Making evidence-based decisions to maintain or improve farm productivity.
+
+MINIGAME 3:
+Learning Goal Code: AS.02.01.01.a
+Description: The "Ethical Farmer" game will allow players to explore and understand the implications of animal welfare and animal rights for animal systems.
+Game Mechanics: The player will operate a virtual farm where they make decisions about animal housing, feeding, and care. They'll have to balance productivity and profit with the well-being of their animals.
+Game Flow: As players progress through the game, they face challenges related to animal welfare issues, such as overcrowding, disease, and harsh weather. They must find solutions that safeguard the animals' well-being while maintaining farm productivity.
+Sub-Goals: This game addresses the following sub-goals - Understanding the concept of animal welfare and rights: Applying this understanding to the management of a virtual farm: Creating strategies to handle challenges that impact animal well-being and productivity.
+
+MINIGAME 4:
+Learning Goal Code: CCSS.MATH.CONTENT.HSA.SSE.1.a
+Description: "Math Puzzle Express" is an engaging mathematical puzzle game where players simplify and interpret expressions within the context of a full cargo train.
+Game Mechanics: Players are provided with mathematical expressions presented as cargo loads, and their task is to simplify these expressions to make the cargo lighter.
+Game Flow: The player starts with a train with heavy cargos each carrying a mathematical expression. By interpreting and simplifying the expressions, the player can reduce the train's weight, allowing it to move faster to its destination.
+Sub-Goals: This game addresses the following sub-goals - Understanding mathematical expressions and coefficients, and simplifying complex expressions to make the cargo train lighter and faster.
+
