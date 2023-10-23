@@ -1,0 +1,59 @@
+{
+    "bodyTypeName": "female",
+    "url": "https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/#?body=Body_color_olive&head=Human_female_olive&hair=Bangslong2_raven&clothes=Blouse_blue&legs=Pants_charcoal&shoes=Shoes_lavender&eyes=Eyes_gray&sex=female&cape=none&shoulders=none&jacket=none&beard=none&hat=none&jacket_collar=none&vest=Vest_open_blue&dress=none&apron=none",
+    "spritesheets": "https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/spritesheets/",
+    "version": 1,
+    "datetime": "10/22/2023, 9:01:18 PM",
+    "credits": "Authors: Benjamin K. Smith (BenCreating), bluecarrot16, TheraHedwig, Evert, MuffinElZangano, Durrani, Pierre Vigier (pvigier), ElizaWy, Matthew Krohn (makrohn), Johannes Sjölund (wulax), Stephen Challener (Redshrike), Mark Weyer, Barbara Riviera, Manuel Riecke (MrBeast), Lanea Zimmerman (Sharm), David Conway Jr. (JaidynReiman), Joe White\n\n- body/bodies/female/universal/olive.png: by Benjamin K. Smith (BenCreating), bluecarrot16, TheraHedwig, Evert, MuffinElZangano, Durrani, Pierre Vigier (pvigier), ElizaWy, Matthew Krohn (makrohn), Johannes Sjölund (wulax), Stephen Challener (Redshrike). License(s): OGA-BY 3.0, CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n    - https://opengameart.org/content/lpc-ladies\n    - https://opengameart.org/content/lpc-7-womens-shirts\n    - https://opengameart.org/content/lpc-jump-expanded\n\n- head/heads/human_female/universal/olive.png: by bluecarrot16, Benjamin K. Smith (BenCreating), Stephen Challener (Redshrike). License(s): OGA-BY 3.0, CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/\n    - https://opengameart.org/content/lpc-character-bases\n\n- eyes/male/gray.png: by Mark Weyer, Johannes Sjölund (wulax), Matthew Krohn (makrohn), Stephen Challener (Redshrike). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n\n- hair/bangslong2/female/raven.png: by Barbara Riviera, Manuel Riecke (MrBeast). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/concept-art-for-lpc-entry\n\n- torso/clothes/blouse/female/blue.png: by bluecarrot16, ElizaWy, Lanea Zimmerman (Sharm). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/lpc-7-womens-shirts\n\n- legs/pants/female/charcoal.png: by bluecarrot16, David Conway Jr. (JaidynReiman), Joe White, Matthew Krohn (makrohn), Johannes Sjölund (wulax). License(s): GPL 3.0, CC-BY-SA 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n    - http://opengameart.org/content/lpc-clothing-updates\n\n- feet/shoes/female/lavender.png: by Joe White, Johannes Sjölund (wulax). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n    - http://opengameart.org/content/lpc-clothing-updates",
+    "layers": [
+      {
+        "fileName": "body/bodies/female/universal/olive.png",
+        "zPos": 10,
+        "parentName": "body",
+        "name": "Body color",
+        "variant": "olive"
+      },
+      {
+        "fileName": "feet/shoes/female/lavender.png",
+        "zPos": 15,
+        "parentName": "shoes",
+        "name": "Shoes",
+        "variant": "lavender"
+      },
+      {
+        "fileName": "legs/pants/female/charcoal.png",
+        "zPos": 20,
+        "parentName": "legs",
+        "name": "Pants",
+        "variant": "charcoal"
+      },
+      {
+        "fileName": "torso/clothes/blouse/female/blue.png",
+        "zPos": 35,
+        "parentName": "clothes",
+        "name": "Blouse",
+        "variant": "blue"
+      },
+      {
+        "fileName": "head/heads/human_female/universal/olive.png",
+        "zPos": 100,
+        "parentName": "head",
+        "name": "Human female",
+        "variant": "olive"
+      },
+      {
+        "fileName": "eyes/male/gray.png",
+        "zPos": 105,
+        "parentName": "eyes",
+        "name": "Eyes",
+        "variant": "gray"
+      },
+      {
+        "fileName": "hair/bangslong2/female/raven.png",
+        "zPos": 120,
+        "parentName": "hair",
+        "name": "Bangslong2",
+        "variant": "raven"
+      }
+    ]
+  }

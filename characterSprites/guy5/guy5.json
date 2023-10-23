@@ -1,0 +1,73 @@
+{
+    "bodyTypeName": "male",
+    "url": "https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/#?body=Body_color_brown&head=Human_male_brown&hair=Natural_dark_brown&clothes=Collared_longsleeve_formal_striped&legs=Pants_maroon&shoes=Shoes_slate&eyes=Eyes_gray&sex=male&cape=none&shoulders=none&jacket=Collared_coat_sky&beard=Beard_brown&hat=none&jacket_collar=none",
+    "spritesheets": "https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/spritesheets/",
+    "version": 1,
+    "datetime": "10/22/2023, 8:51:50 PM",
+    "credits": "Authors: bluecarrot16, Benjamin K. Smith (BenCreating), Evert, Eliza Wyatt (ElizaWy), TheraHedwig, MuffinElZangano, Durrani, Johannes Sj?lund (wulax), Stephen Challener (Redshrike), Mark Weyer, Johannes Sjölund (wulax), Matthew Krohn (makrohn), David Conway Jr. (JaidynReiman), Carlo Enrico Victoria (Nemisys), Thane Brimhall (pennomi), laetissima, Joe White\n\n- body/bodies/male/universal/brown.png: by bluecarrot16, Benjamin K. Smith (BenCreating), Evert, Eliza Wyatt (ElizaWy), TheraHedwig, MuffinElZangano, Durrani, Johannes Sj?lund (wulax), Stephen Challener (Redshrike). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n    - https://opengameart.org/content/lpc-male-jumping-animation-by-durrani\n    - https://opengameart.org/content/lpc-runcycle-and-diagonal-walkcycle\n    - https://opengameart.org/content/lpc-revised-character-basics\n\n- head/heads/human_male/universal/brown.png: by bluecarrot16, Benjamin K. Smith (BenCreating), Stephen Challener (Redshrike). License(s): OGA-BY 3.0, CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/lpc-character-bases\n\n- eyes/male/gray.png: by Mark Weyer, Johannes Sjölund (wulax), Matthew Krohn (makrohn), Stephen Challener (Redshrike). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n\n- beards/beard/male/brown.png: by David Conway Jr. (JaidynReiman), Carlo Enrico Victoria (Nemisys). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/lpc-brunet-mustache\n\n- hair/natural/male/dark_brown.png: by bluecarrot16. License(s): CC0. \n    - https://opengameart.org/content/lpc-hair\n\n- torso/clothes/longsleeve/male/formal_striped.png: by bluecarrot16, Thane Brimhall (pennomi), laetissima, Johannes Sjölund (wulax). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n    - https://opengameart.org/content/lpc-2-characters\n\n- torso/jacket/collared/male/sky.png: by bluecarrot16. License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/lpc-gentleman\n    - https://opengameart.org/content/lpc-pirates\n\n- legs/pants/male/maroon.png: by bluecarrot16, David Conway Jr. (JaidynReiman), Joe White, Matthew Krohn (makrohn), Johannes Sjölund (wulax). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n\n- feet/shoes/male/slate.png: by bluecarrot16, Johannes Sjölund (wulax). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n    - http://opengameart.org/content/lpc-clothing-updates",
+    "layers": [
+      {
+        "fileName": "body/bodies/male/universal/brown.png",
+        "zPos": 10,
+        "parentName": "body",
+        "name": "Body color",
+        "variant": "brown"
+      },
+      {
+        "fileName": "feet/shoes/male/slate.png",
+        "zPos": 15,
+        "parentName": "shoes",
+        "name": "Shoes",
+        "variant": "slate"
+      },
+      {
+        "fileName": "legs/pants/male/maroon.png",
+        "zPos": 20,
+        "parentName": "legs",
+        "name": "Pants",
+        "variant": "maroon"
+      },
+      {
+        "fileName": "torso/clothes/longsleeve/male/formal_striped.png",
+        "zPos": 35,
+        "parentName": "clothes",
+        "name": "Collared longsleeve",
+        "variant": "formal striped"
+      },
+      {
+        "fileName": "torso/jacket/collared/male/sky.png",
+        "zPos": 55,
+        "parentName": "jacket",
+        "name": "Collared coat",
+        "variant": "sky"
+      },
+      {
+        "fileName": "head/heads/human_male/universal/brown.png",
+        "zPos": 100,
+        "parentName": "head",
+        "name": "Human male",
+        "variant": "brown"
+      },
+      {
+        "fileName": "eyes/male/gray.png",
+        "zPos": 105,
+        "parentName": "eyes",
+        "name": "Eyes",
+        "variant": "gray"
+      },
+      {
+        "fileName": "beards/beard/male/brown.png",
+        "zPos": 110,
+        "parentName": "beard",
+        "name": "Beard",
+        "variant": "brown"
+      },
+      {
+        "fileName": "hair/natural/male/dark_brown.png",
+        "zPos": 120,
+        "parentName": "hair",
+        "name": "Natural",
+        "variant": "dark brown"
+      }
+    ]
+  }

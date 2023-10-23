@@ -1,0 +1,66 @@
+{
+    "bodyTypeName": "female",
+    "url": "https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/#?body=Body_color_light&head=Human_female_light&hair=Shortknot_ginger&clothes=none&legs=none&shoes=Shoes_black&eyes=Eyes_gray&sex=female&cape=none&shoulders=none&jacket=none&beard=none&hat=none&jacket_collar=none&vest=none&dress=Sash_dress_green&apron=none&nose=Button_nose_light&neck=none&sash=none&belt=Leather_Belt_brown&ears=none&necklace=none",
+    "spritesheets": "https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/spritesheets/",
+    "version": 1,
+    "datetime": "10/22/2023, 9:18:35 PM",
+    "credits": "Authors: Benjamin K. Smith (BenCreating), bluecarrot16, TheraHedwig, Evert, MuffinElZangano, Durrani, Pierre Vigier (pvigier), ElizaWy, Matthew Krohn (makrohn), Johannes Sjölund (wulax), Stephen Challener (Redshrike), Thane Brimhall (pennomi), Mark Weyer, David Conway Jr. (JaidynReiman), laetissima, Joe White\n\n- body/bodies/female/universal/light.png: by Benjamin K. Smith (BenCreating), bluecarrot16, TheraHedwig, Evert, MuffinElZangano, Durrani, Pierre Vigier (pvigier), ElizaWy, Matthew Krohn (makrohn), Johannes Sjölund (wulax), Stephen Challener (Redshrike). License(s): OGA-BY 3.0, CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n    - https://opengameart.org/content/lpc-ladies\n    - https://opengameart.org/content/lpc-7-womens-shirts\n    - https://opengameart.org/content/lpc-jump-expanded\n\n- head/heads/human_female/universal/light.png: by bluecarrot16, Benjamin K. Smith (BenCreating), Stephen Challener (Redshrike). License(s): OGA-BY 3.0, CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/\n    - https://opengameart.org/content/lpc-character-bases\n\n- head/nose/button/light.png: by Thane Brimhall (pennomi), Matthew Krohn (makrohn). License(s): GPL 3.0, CC-BY-SA 3.0. \n    - https://opengameart.org/content/lpc-base-character-expressions\n\n- eyes/male/gray.png: by Mark Weyer, Johannes Sjölund (wulax), Matthew Krohn (makrohn), Stephen Challener (Redshrike). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n\n- hair/shortknot/female/ginger.png: by David Conway Jr. (JaidynReiman). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/lpc-curly-hair-elven-ears-white-cape-with-blue-trim-and-more\n    - https://github.com/jrconway3/Universal-LPC-spritesheet/commit/46ddcf05a0e43e7aa6ffd47d350eef0eb529ac24\n\n- dress/sash/female/green.png: by bluecarrot16, Thane Brimhall (pennomi), laetissima, Matthew Krohn (makrohn). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/lpc-2-characters\n\n- torso/waist/belt_leather/female/brown.png: by bluecarrot16, Johannes Sjölund (wulax), Matthew Krohn (makrohn). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/lpc-combat-armor-for-women\n    - https://opengameart.org/content/lpc-pirates\n\n- feet/shoes/female/black.png: by Joe White, Johannes Sjölund (wulax). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n    - http://opengameart.org/content/lpc-clothing-updates",
+    "layers": [
+      {
+        "fileName": "body/bodies/female/universal/light.png",
+        "zPos": 10,
+        "parentName": "body",
+        "name": "Body color",
+        "variant": "light"
+      },
+      {
+        "fileName": "feet/shoes/female/black.png",
+        "zPos": 15,
+        "parentName": "shoes",
+        "name": "Shoes",
+        "variant": "black"
+      },
+      {
+        "fileName": "dress/sash/female/green.png",
+        "zPos": 30,
+        "parentName": "dress",
+        "name": "Sash dress",
+        "variant": "green"
+      },
+      {
+        "fileName": "torso/waist/belt_leather/female/brown.png",
+        "zPos": 70,
+        "parentName": "belt",
+        "name": "Leather Belt",
+        "variant": "brown"
+      },
+      {
+        "fileName": "head/heads/human_female/universal/light.png",
+        "zPos": 100,
+        "parentName": "head",
+        "name": "Human female",
+        "variant": "light"
+      },
+      {
+        "fileName": "head/nose/button/light.png",
+        "zPos": 105,
+        "parentName": "nose",
+        "name": "Button nose",
+        "variant": "light"
+      },
+      {
+        "fileName": "eyes/male/gray.png",
+        "zPos": 105,
+        "parentName": "eyes",
+        "name": "Eyes",
+        "variant": "gray"
+      },
+      {
+        "fileName": "hair/shortknot/female/ginger.png",
+        "zPos": 120,
+        "parentName": "hair",
+        "name": "Shortknot",
+        "variant": "ginger"
+      }
+    ]
+  }

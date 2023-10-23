@@ -1,0 +1,59 @@
+{
+    "bodyTypeName": "female",
+    "url": "https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/#?body=Body_color_brown&head=Human_female_brown&hair=Curly_short_light_brown&clothes=none&legs=none&shoes=Shoes_black&eyes=Eyes_gray&sex=female&cape=none&shoulders=none&jacket=none&beard=none&hat=none&jacket_collar=none&vest=none&dress=Slit_dress_red&apron=none&nose=Button_nose_brown",
+    "spritesheets": "https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/spritesheets/",
+    "version": 1,
+    "datetime": "10/22/2023, 9:08:02 PM",
+    "credits": "Authors: Benjamin K. Smith (BenCreating), bluecarrot16, TheraHedwig, Evert, MuffinElZangano, Durrani, Pierre Vigier (pvigier), ElizaWy, Matthew Krohn (makrohn), Johannes Sjölund (wulax), Stephen Challener (Redshrike), Thane Brimhall (pennomi), Mark Weyer, Nila122, Joe White\n\n- body/bodies/female/universal/brown.png: by Benjamin K. Smith (BenCreating), bluecarrot16, TheraHedwig, Evert, MuffinElZangano, Durrani, Pierre Vigier (pvigier), ElizaWy, Matthew Krohn (makrohn), Johannes Sjölund (wulax), Stephen Challener (Redshrike). License(s): OGA-BY 3.0, CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n    - https://opengameart.org/content/lpc-ladies\n    - https://opengameart.org/content/lpc-7-womens-shirts\n    - https://opengameart.org/content/lpc-jump-expanded\n\n- head/heads/human_female/universal/brown.png: by bluecarrot16, Benjamin K. Smith (BenCreating), Stephen Challener (Redshrike). License(s): OGA-BY 3.0, CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/\n    - https://opengameart.org/content/lpc-character-bases\n\n- head/nose/button/brown.png: by Thane Brimhall (pennomi), Matthew Krohn (makrohn). License(s): GPL 3.0, CC-BY-SA 3.0. \n    - https://opengameart.org/content/lpc-base-character-expressions\n\n- eyes/male/gray.png: by Mark Weyer, Johannes Sjölund (wulax), Matthew Krohn (makrohn), Stephen Challener (Redshrike). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n\n- hair/curly_short/female/light_brown.png: by ElizaWy. License(s): OGA-BY 3.0. \n    - https://opengameart.org/content/lpc-hair\n\n- dress/slit/female/red.png: by Nila122, ElizaWy, bluecarrot16. License(s): CC-BY-SA 3.0, GPL 2.0, GPL 3.0. \n    - https://opengameart.org/content/lpc-clothes-and-hair\n    - http://opengameart.org/content/lpc-clothing-updates\n\n- feet/shoes/female/black.png: by Joe White, Johannes Sjölund (wulax). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n    - http://opengameart.org/content/lpc-clothing-updates",
+    "layers": [
+      {
+        "fileName": "body/bodies/female/universal/brown.png",
+        "zPos": 10,
+        "parentName": "body",
+        "name": "Body color",
+        "variant": "brown"
+      },
+      {
+        "fileName": "feet/shoes/female/black.png",
+        "zPos": 15,
+        "parentName": "shoes",
+        "name": "Shoes",
+        "variant": "black"
+      },
+      {
+        "fileName": "dress/slit/female/red.png",
+        "zPos": 30,
+        "parentName": "dress",
+        "name": "Slit dress",
+        "variant": "red"
+      },
+      {
+        "fileName": "head/heads/human_female/universal/brown.png",
+        "zPos": 100,
+        "parentName": "head",
+        "name": "Human female",
+        "variant": "brown"
+      },
+      {
+        "fileName": "head/nose/button/brown.png",
+        "zPos": 105,
+        "parentName": "nose",
+        "name": "Button nose",
+        "variant": "brown"
+      },
+      {
+        "fileName": "eyes/male/gray.png",
+        "zPos": 105,
+        "parentName": "eyes",
+        "name": "Eyes",
+        "variant": "gray"
+      },
+      {
+        "fileName": "hair/curly_short/female/light_brown.png",
+        "zPos": 120,
+        "parentName": "hair",
+        "name": "Curly short",
+        "variant": "light brown"
+      }
+    ]
+  }
