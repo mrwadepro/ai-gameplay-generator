@@ -13,7 +13,7 @@ competencies = dict.fromkeys(competencies)
 
 microCompetencies = data["Micro-competency"] + " " + data["Micro-competency Description"]
 
-prompt = "You will create educational minigames based off the learning goals. The learning goals are what the student should learn by the end of the minigame. Each learning goal has a minigame. Each learning goal will have sub-goals. The student must have learned every sub-goal associated with it to be considered having learned the learning goal. The minigame for each learning goal must include each subgoal. Each minigame should have a description, game mechanics, and a game flow that lists each sub-goal covered."
+prompt = "You will create educational minigames based off the learning goals. The learning goals are what the student should learn by the end of the minigame. Each learning goal has a minigame. Each learning goal will have sub-goals. The student must have learned every sub-goal associated with it's learning goal to be considered having learned the learning goal. Each sub-goal must be covered in a minigame. The minigame for each learning goal must include each subgoal. Each minigame should have the learning goal code, a description, game mechanics, and a game flow that goes through what the player does, and the sub-goals."
 learningGoals = "The learning goals are: \n" + "\n".join(competencies.keys())
 subGoals = "\nThe sub-goals are: \n" + "\n".join(microCompetencies)
 
