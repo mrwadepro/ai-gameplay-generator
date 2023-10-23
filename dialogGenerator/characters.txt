@@ -1,0 +1,3 @@
+Clint (blacksmith),
+Robin (farmer),
+Gunther (museum curator)
