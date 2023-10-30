@@ -1,127 +1,222 @@
-prompt: You will create educational minigames based off the learning goals. The learning goals are what the student should learn by the end of the minigame. Each learning goal has a minigame. Each learning goal will have sub-goals. The student must have learned every sub-goal associated with it's learning goal to be considered having learned the learning goal. Each sub-goal must be covered in a minigame. The minigame for each learning goal must include each subgoal. Each minigame should have the learning goal code, a description, game mechanics, and a game flow that goes through what the player does, and the sub-goals.
+[
 
-Minigame 1: 
-Learning Goal Code: AS.01.01
-Description: This interactive game will teach students about the origins, domestication, and distribution of farm animals.
-Game Mechanics: The game will consist of collecting cards containing information about different animals. The player can learn about each animal's history, the region where it was first domesticated, and the area it lives in today. There will be a map where players can place the animals in their corresponding regions as they learn about them.
-Game Flow: The player begins with a set of animal cards. They select an animal card to learn more about its origin, domestication, and distribution. After acquiring enough information about the animal, they must place them on the map. The game continues until the player has learned about all the animals and placed each one on the map.
+{
+  "Learning Goal Code": "AS.01.01",
+  "Description": "Farmhouse Chronicles: Animal Origins and Implications",
+  "Game Mechanics": "The game is a combination of interactive storytelling, puzzle-solving, and strategic decision-making. Players will interact with different animal species, learn about their origins, domestication, and distribution, and make decisions that impact the farm's production practices and the environment.",
+  "Game Flow": "The player starts as a new farmer who inherited an old farmhouse. They will encounter different animal species and through interactive dialogues and tasks, learn about their origins and significance. They will also learn about the characteristics that led to their domestication. The player will then make decisions on how to manage these animals on the farm, considering their adaptations and the implications on production practices and the environment. The player will also explore the history and scientific developments of different animal industries, and predict future trends and implications. The game progresses as the player successfully manages the farm and makes informed decisions.",
+  "Sub-Goals": [
+    {
+      "Code": "AS.01.01.01.a",
+      "Description": "Identify and summarize the origin, significance, distribution and domestication of different animal species."
+    },
+    {
+      "Code": "AS.01.01.01.b",
+      "Description": "Evaluate and describe characteristics of animals that developed in response to the animal's environment and led to their domestication."
+    },
+    {
+      "Code": "AS.01.01.01.c",
+      "Description": "Evaluate the implications of animal adaptations on production practices and the environment."
+    },
+    {
+      "Code": "AS.01.01.02.a",
+      "Description": "Research and summarize major components of animal systems (e.g. Livestock, companion animal, etc.)."
+    },
+    {
+      "Code": "AS.01.01.02.b",
+      "Description": "Describe the historical and scientific developments of different animal industries and summarize the products, services and careers associated with each."
+    },
+    {
+      "Code": "AS.01.01.02.c",
+      "Description": "Predict trends and implications of future developments within different animal industries on production practices and the environment."
+    }
+  ]
+} , 
 
-Sub-Goal 1: Recognize the animal's origin, domestication, and distribution - Each animal card contains this information, and the map placement reinforces this learning.
-Sub-Goal 2: Evaluate the impact of domestication and distribution on current animal production practices - Throughout the game, the student will find hints on how domestication and distribution impact current farming practices. Successfully placing the animal in the proper location indicates an understanding of these impacts.
+{
+  "Learning Goal Code": "AS.01.02",
+  "Minigame Title": "Farmhouse Production and Marketing Master",
+  "Description": "In this minigame, players will take on the role of a farmer who must select and implement animal production methods, analyze their impacts, and market their products effectively. The game will provide real-world scenarios and data to help players understand the complexities of animal production and marketing.",
+  "Game Mechanics": "The game is divided into two main sections: Production and Marketing. In the Production section, players will choose their production methods and see the effects on their animals and products. In the Marketing section, players will create and evaluate marketing plans, calculate costs, and predict sales. The game will provide feedback and scores based on the effectiveness and impacts of the players' decisions.",
+  "Game Flow": "Players start by selecting their animal production methods. They will then receive information about the impacts of these methods on product quality, animal welfare, and sustainability. Next, players will move on to the Marketing section where they will research marketing methods, calculate costs, and devise marketing plans. The game will provide feedback and scores based on the effectiveness and impacts of the players' decisions. To win, players must achieve a balance of effective production and successful marketing.",
+  "Sub-Goals": [
+    "AS.01.02.01.a Identify and categorize terms and methods related to animal production (e.g.  Conventional,  humanely raised,   natural,  organic,  etc.)",
+    "AS.01.02.01.b Analyze the impact of animal production methods on end product qualities (e.g.  Sustainability,  marketing,  labeling,  animal welfare,  etc.)",
+    "AS.01.02.01.c Evaluate the effectiveness of different production methods and defend the use of selected methods using data and evidence.",
+    "AS.01.02.02.a Research and examine marketing methods for animal products and services (e.g.  niche markets,  locally grown,  etc.)",
+    "AS.01.02.02.b Calculate costs of marketing versus predicted increases in sales.",
+    "AS.01.02.02.c Devise and evaluate marketing plans for an animal agriculture product or service."
+  ]
+} , 
 
-Minigame 2: 
-Learning Goal Code: CCSS.MATH.CONTENT.HSA.SSE.1
-Description: This game will facilitate the interpretation of mathematical expressions.
-Game Mechanics: The player will be given mathematical expressions and will need to identify its structure and parts like coefficients, factors, and variables.
-Game Flow: The player will be shown an expression. They will have to interpret the terms, factors, and coefficients, then enter the correct interpretation. The player will proceed to the next level for each correct answer.
+{
+  "Learning Goal Code": "AS.01.03",
+  "Minigame Title": "Farmhouse Legislation & Sustainability",
+  "Description": "In this minigame, players will take on the role of a farmer who must navigate the complex world of animal agriculture laws and sustainable practices. They will need to make decisions about their farming practices while considering the impact on the environment, the local and global community, and the sustainability of their farm.",
+  "Game Mechanics": "The game will be a point-and-click adventure game. Players will interact with different elements of the farm, make decisions about their farming practices, and answer questions to demonstrate their understanding of the laws and sustainable practices.",
+  "Game Flow": "The game begins with the player inheriting a farm. They will be presented with different scenarios and will need to make decisions based on their understanding of the laws and sustainable practices. They will also need to answer questions to demonstrate their understanding. The game will provide feedback on their decisions and answers, helping them to learn and understand the concepts. The game ends when the player has successfully navigated all the scenarios and demonstrated their understanding of all the concepts.",
+  "Sub-goals": [
+    {
+      "Code": "AS.01.03.01.a",
+      "Description": "Distinguish between the types of laws pertaining to animal systems."
+    },
+    {
+      "Code": "AS.01.03.01.b",
+      "Description": "Analyze the structure of laws governing animal industries"
+    },
+    {
+      "Code": "AS.01.03.01.c",
+      "Description": "Evaluate the impact of laws pertaining to animal agriculture (e.g.  Cons,  effect on individuals,  effect on businesses,  etc.) and assess the compliance of production practices with established regulations."
+    },
+    {
+      "Code": "AS.01.03.02.a",
+      "Description": "Research and summarize sustainability in animal systems."
+    },
+    {
+      "Code": "AS.01.03.02.b",
+      "Description": "Analyze the local and global impact of sustainable animal agriculture practices on human and environmental systems."
+    },
+    {
+      "Code": "AS.01.03.02.c",
+      "Description": "Select, evaluate and defend the use of sustainable practices in animal agriculture."
+    }
+  ]
+} , 
 
-Sub-Goal 1: Identify and interpret parts of an expression - The player needs to correctly identify the parts to progress, reinforcing this learning goal.
-Sub-Goal 2: Learn to view parts of an expression as a single entity - As expressions become more complex, players will need to build this skill to identify full parts and understand the expression's overall structure.
+{
+  "Learning Goal Code": "AS.02.01",
+  "Minigame Title": "Farmhouse Welfare Manager",
+  "Description": "In this game, players will manage a virtual farmhouse, ensuring the welfare of various animals. They will design and implement welfare programs, handle challenges, and make decisions about animal husbandry practices.",
+  "Game Mechanics": "The game is a simulation where players will interact with a virtual farm environment. They will have to monitor the animals' health and happiness levels, design and implement welfare programs, and make decisions about animal husbandry practices. The game will present various challenges and scenarios that the player will have to navigate, using available resources and information about animal behavior.",
+  "Game Flow": "The player starts with a small farm with a few animals. They will have to monitor the animals' health and happiness levels, and make decisions to ensure their welfare. This might involve designing a feeding program, implementing a quality-assurance procedure, or deciding how to safely move and restrain animals. The game will present various challenges, such as a sick animal or a broken fence, and the player will have to use available resources and information to solve these problems. The game will provide feedback on the player's decisions, allowing them to see the impact of their actions on animal welfare.",
+  "Sub-Goals": [
+    "AS.02.01.01.a",
+    "AS.02.01.01.b",
+    "AS.02.01.01.c",
+    "AS.02.01.02.a",
+    "AS.02.01.02.b",
+    "AS.02.01.02.c",
+    "AS.02.01.03.a",
+    "AS.02.01.03.b",
+    "AS.02.01.03.c"
+  ]
+} , 
 
-Each mini-game covers its associated learning goal and sub-goals, and uses gameplay to reinforce learning. This combination of entertainment and education can make learning these topics more fun and engaging for students.
+{
+  "LearningGoalCode": "AS.02.02",
+  "Description": "Farm Safety Quest: A game set in a virtual farmhouse where players must ensure the safety of animal products for consumption.",
+  "GameMechanics": "Players will interact with various tools, technology, and equipment in the game to perform tasks related to animal husbandry and welfare. They will also research and analyze various animal production practices and their potential health risks. The game will also involve tracking systems for different animal species and evaluating their effectiveness.",
+  "GameFlow": "Players start by selecting the tools and equipment they will use for animal husbandry tasks. They then perform these tasks, with the game providing feedback on their effectiveness. Players will also encounter scenarios where they must research and analyze potential health risks associated with certain animal production practices. They will also have to address consumer concerns related to these practices. The game will also introduce animal tracking systems, and players will have to analyze and evaluate their effectiveness.",
+  "SubGoals": [
+    {
+      "Code": "AS.02.02.01.a",
+      "Description": "Identify and categorize tools, technology and equipment used in animal husbandry and welfare to help provide an abundant and safe food supply."
+    },
+    {
+      "Code": "AS.02.02.01.b",
+      "Description": "Utilize tools, technology and equipment to perform animal husbandry and welfare tasks."
+    },
+    {
+      "Code": "AS.02.02.01.c",
+      "Description": "Select technology or equipment used to perform animal husbandry and welfare tasks."
+    },
+    {
+      "Code": "AS.02.02.02.a",
+      "Description": "Research and summarize animal production practices that may pose health risks."
+    },
+    {
+      "Code": "AS.02.02.02.b",
+      "Description": "Analyze consumer concerns with animal production practices relative to human health."
+    },
+    {
+      "Code": "AS.02.02.02.c",
+      "Description": "Research and evaluate programs to assure the safety of animal products for consumption."
+    },
+    {
+      "Code": "AS.02.02.03.a",
+      "Description": "Identify and describe animal tracking systems used in animal systems (e.g. companion animal, exotics, etc.)."
+    },
+    {
+      "Code": "AS.02.02.03.b",
+      "Description": "Analyze and summarize the impact of animal trace-back capabilities on producers and consumers."
+    },
+    {
+      "Code": "AS.02.02.03.c",
+      "Description": "Evaluate the effectiveness of animal and/or premise identification programs for a given species."
+    }
+  ]
+} , 
 
-prompt: You will create educational minigames based off the learning goals. The learning goals are what the student should learn by the end of the minigame. Each learning goal has a minigame. Each learning goal will have sub-goals. The student must have learned every sub-goal associated with it's learning goal to be considered having learned the learning goal. Each sub-goal must be covered in a minigame. The minigame for each learning goal must include each subgoal. Each minigame should have the learning goal code, a description, game mechanics, and a game flow that goes through what the player does, and the sub-goals.
+{
+"Learning Goal Code": "AS.03.01",
+"Description": "In this minigame, the player will be tasked with managing a virtual farm, where they will be responsible for feeding and taking care of a variety of animals. The player will need to understand and apply knowledge of the nutritional needs of these animals at different stages of their lives and in different production systems.",
+"Game Mechanics": "The player will start with a small farm with a few different types of animals. Each animal will have a 'health' and 'growth' bar. The player will need to feed the animals the correct type and amount of food to keep their health up and promote growth. The type and amount of food required will change depending on the animal's stage of life and the production system the player chooses (e.g. organic, natural, etc.).",
+"Game Flow": "The player starts with a tutorial that explains the basics of animal nutrition and how to feed the animals. The player then starts with a small farm and a few animals. The player will need to buy food and feed the animals. The player will need to monitor the animals' health and growth and adjust their feeding as necessary. The player can expand their farm and get more animals as they progress in the game. The game ends when the player has successfully raised a certain number of animals to adulthood in each production system.",
+"Sub-Goals": [
+  {
+    "Code": "AS.03.01.01.a",
+    "Description": "Identify and summarize essential nutrients required for animal health and analyze each nutrient’s role in growth and performance."
+  },
+  {
+    "Code": "AS.03.01.01.b",
+    "Description": "Differentiate between nutritional needs of animals in different growth stages and production systems (e.g.  Gestation,  natural,  organic,  etc.)."
+  },
+  {
+    "Code": "AS.03.01.01.c",
+    "Description": "Assess nutritional needs for an individual animal based on its growth stage and production system."
+  }
+]
+} , 
 
-Minigame: Animal Origin Memory Match 
-Code: AS.01.01.01.a 
-Description: This is a card-matching game where players have to match animal species with their correct origin, significance, distribution, and domestication process. 
-Game Mechanic: The game is played by flipping over two cards at a time with the goal of finding pairs. When a matching pair is found, a brief explanation shows, connecting the animals and their origin, distribution or domestication process. Once a match is found, it is removed or marked on the game board.
-Game Flow: Start -> Flip card 1 -> Flip card 2 -> If match, show explanation, remove/marked in the board, points get added -> If not, flips back over -> Repeat until all pairs are found.
-Sub-Goals: Students will identify and summarize the origins, significance, distribution and domestication process of various animal species.
+{
+  "Learning Goal Code": "AS.03.02",
+  "Description": "Feed Ration Frenzy is a minigame set in a farmhouse where players must analyze and create balanced feed rations for different types of animals. The game will teach players about the different types of feedstuffs, their nutritional value, and how to select appropriate feedstuffs based on various factors. Players will also learn about the importance of balanced rations, how to appraise feed rations, and how to select and utilize animal feeds for optimal nutrition and economic production. Additionally, the game will educate players on the purpose, impact, and mode of action of feed additives and growth promotants in animal production.",
+  "Game Mechanics": "The game is divided into different levels, each representing a different type of animal. Players must analyze the nutritional needs of the animal and select the appropriate feedstuffs to create a balanced ration. They must also consider the quality and condition of the feedstuffs, the animal's growth stage, and the use of feed additives and growth promotants. The game includes interactive elements such as drag-and-drop to select feedstuffs, sliders to adjust the quantity of each feedstuff, and buttons to select feed additives and growth promotants. The game provides immediate feedback on the player's choices and offers hints and tips to guide them.",
+  "Game Flow": "The player starts the game by selecting a level. They are then presented with the nutritional needs of the animal and a variety of feedstuffs. They must analyze the information and select the appropriate feedstuffs to create a balanced ration. They can adjust the quantity of each feedstuff using sliders and select feed additives and growth promotants using buttons. Once they are satisfied with their choices, they can submit their ration for evaluation. The game provides feedback on the player's choices and offers hints and tips to improve their ration. The player can then adjust their ration based on the feedback and resubmit it for evaluation. The game continues until the player has created a balanced ration that meets the nutritional needs of the animal.",
+  "Sub-Goals": [
+    "AS.03.02.01.a",
+    "AS.03.02.01.b",
+    "AS.03.02.01.c",
+    "AS.03.02.02.a",
+    "AS.03.02.02.b",
+    "AS.03.02.02.c",
+    "AS.03.02.03.a",
+    "AS.03.02.03.b"
+  ]
+} , 
 
-Minigame: Animal Welfare Rescue
-Code: AS.02.01.01.a
-Description: A virtual game where players have to identify the conditions that are either good/bad for animal welfare in different farm settings. 
-Game Mechanic: Players get different scenarios with various animals facing different conditions. They should interact with the virtual environment to improve the animal's well-being.
-Game Flow: Start -> Scenario displays -> Identify condition -> Improve condition by selecting appropriate actions -> Next scenario.
-Sub-Goals: Understanding the implications of animal welfare and identifying conditions that ensure animal welfare.
+{
+  "Learning Goal Code": "CCSS.MATH.CONTENT.HSA.SSE.1",
+  "Description": "Farmhouse Fractions: A game set in a farmhouse where the player must interpret expressions that represent a quantity in terms of its context.",
+  "Game Mechanics": "The player will be given a series of tasks to perform on the farm, each task represented by an algebraic expression. The player must interpret the expression in the context of the task and perform the correct action.",
+  "Game Flow": "The player starts in the farmhouse and is given a task, such as 'Collect 2x the number of eggs as there are chickens'. The player must interpret the expression, '2x', in the context of the task, and then perform the action by clicking on the correct number of eggs. The player progresses through increasingly complex tasks, interpreting and acting on more complex expressions.",
+  "Sub-Goals": [
+    {
+      "Sub-Goal Code": "CCSS.MATH.CONTENT.HSA.SSE.1.a",
+      "Description": "Interpret parts of an expression, such as terms, factors, and coefficients.",
+      "Game Mechanics": "The player will encounter tasks that require them to interpret parts of an expression. For example, they may need to collect '3x - y' eggs, where 'x' is the number of chickens and 'y' is the number of ducks. The player must interpret the terms, factors, and coefficients to perform the task correctly.",
+      "Game Flow": "The player is given a task with an expression that includes terms, factors, and coefficients. The player must interpret these parts in the context of the task and perform the correct action."
+    },
+    {
+      "Sub-Goal Code": "CCSS.MATH.CONTENT.HSA.SSE.1.b",
+      "Description": "Interpret complicated expressions by viewing one or more of their parts as a single entity.",
+      "Game Mechanics": "The player will encounter tasks that require them to interpret complicated expressions. For example, they may need to feed the animals 'P(1+r)n' units of food, where 'P' is the number of pigs, 'r' is the growth rate of the food, and 'n' is the number of days. The player must interpret the expression as a whole to perform the task correctly.",
+      "Game Flow": "The player is given a task with a complicated expression. The player must interpret the expression as a whole in the context of the task and perform the correct action."
+    }
+  ]
+} , 
 
-Minigame: Eat Right for the Fight 
-Code: AS.03.01.01.a 
-Description: In this puzzle-based game, players must identify and match the essential nutrients required for different types of animals.
-Game Mechanic: Players will be given a virtual animal and a variety of nutrients. They must select the proper nutrients needed for that specific animal's health, growth, and performance. 
-Game Flow: Start -> Animal appears -> Select correct nutrients -> If correct, move to next level -> If incorrect, try again.
-Sub-Goals: Identifying essential nutrients required for animal health and understanding their role in growth and performance.
+{
+  "Learning Goal Code": "CCSS.MATH.CONTENT.HSA.SSE.2",
+  "Description": "In this minigame, the player will be a farmer who needs to rearrange the structure of the farm to maximize its efficiency. The farm is represented as an expression, and the player needs to identify ways to rewrite it to make it more efficient.",
+  "Game Mechanics": "The player will be presented with a series of mathematical expressions representing different arrangements of the farm. The player needs to identify the structure of each expression and find ways to rewrite it. For example, if the farm is represented as x4 - y4, the player can see it as (x2)2 - (y2)2, thus recognizing it as a difference of squares that can be factored as (x2 - y2)(x2 + y2). By doing this, the player can rearrange the farm to make it more efficient.",
+  "Game Flow": "The game starts with the player being presented with an expression representing the current arrangement of the farm. The player needs to identify the structure of the expression and find ways to rewrite it. Once the player has successfully rewritten the expression, they can rearrange the farm accordingly. The game continues with increasingly complex expressions, challenging the player to constantly find new ways to rearrange the farm.",
+  "Sub-Goals": [
+    "Identify the structure of an expression",
+    "Find ways to rewrite an expression",
+    "Recognize a difference of squares",
+    "Factor a difference of squares"
+  ]
+} 
 
-Minigame: Expression Exploration 
-Code: CCSS.MATH.CONTENT.HSA.SSE.1 
-Description: A multi-level puzzle game where players have to interpret mathematical expressions based on given contexts to solve problems.
-Game Mechanic: The player will be given different expressions and a context. They have to interpret the expression based on the context to solve the problem and progress in the game.
-Game Flow: Start -> Expression displays with context -> Interpret expression -> Input answer -> If correct, advance to the next level -> If not, try again.
-Sub-Goals: Understanding expressions that represent a quantity in terms of its context, interpreting parts of an expression, and interpreting complicated expressions as a whole or part entity.
-
-prompt: You will create educational minigames based off the learning goals. The learning goals are what the student should learn by the end of the minigame. Each learning goal has a minigame. Each learning goal will have sub-goals. The student must have learned every sub-goal associated with it's learning goal to be considered having learned the learning goal. Each sub-goal must be covered in a minigame. The minigame for each learning goal must include each subgoal. Each minigame should have the learning goal code, a description, game mechanics, a game flow that goes through what the player does, and the sub-goals.
-
-Learning Goal Code: AS.01.01 
-
-Game Description: This game will allow players to travel through time to explore the origin, significance, distribution and domestication of different animal species and understand their implications on production practices and the environment.
-
-Game Mechanics: Players will move through different eras, interact with various environments to domesticate different animal species. They will have tools and information to evaluate the impacts of these animal's adaptations on environment and production methods.
-
-Game Flow: The player starts by choosing an animal species. They will travel time and observe the conditions that led to this species' domestication. Each round will focus on a different epoch and a new animal. By the end, the player should have a clear picture of how animals developed their characteristics, contributed to ecosystems and influenced our production methods.
-
-Sub-goals:
-
-- AS.01.01.01.a: Identify and summarize the origin, significance, distribution and domestication of different animal species.
-- AS.01.01.01.b: Evaluate and describe characteristics of animals that developed in response to the animal's environment and led to their domestication.
-- AS.01.01.01.c: Evaluate the implications of animal adaptations on production practices and the environment.
-
----
-Learning Goal Code: AS.01.02 
-
-Game Description: This strategy game tasks players with implementing and managing diverse animal production methods, while considering their impacts and effectiveness.
-
-Game Mechanics: Players will oversee a virtual farm where they can implement different animal production methods and monitor their impact on the animals, the environment, and the farm’s productivity. They will have to choose between conventional and organic methods, balance cost and efficiency, and respond to changing market demands to ensure the success of their farm.
-
-Game Flow: The player starts with a bare farm and a small budget. They can use the budget to buy animals and assign production methods to different areas on their farm. The player's decisions will affect the farm’s productivity, the animals' health, and the environment.
-
-Sub-goals:
-
-- AS.01.02.01.a: Identify and categorize terms and methods related to animal production (e.g. conventional, humanely raised, natural, organic, etc).
-- AS.01.02.01.b: Analyze the impact of animal production methods on end product qualities (e.g. sustainability, marketing, labeling, animal welfare, etc).
-- AS.01.02.01.c: Evaluate the effectiveness of different production methods and defend the use of selected methods using data and evidence.
-
----
-Learning Goal Code: CCSS.MATH.CONTENT.HSA.SSE.1 
-
-Game Description: A math adventure game where the player travels the universe, solving algebraic puzzles and interpreting expressions in terms of their context.
-
-Game Mechanics: The player has to solve a series of algebraic puzzles, by interpreting the parts of expressions, such as terms, factors, and coefficients. The puzzles get increasingly difficult as the game progresses.
-
-Game Flow: The player starts on Earth and travels to different planets, each with a different set of puzzles. The expressions are presented in context of the game's storyline, forcing the player to interpret them in a real-world context.
-
-Sub-goals:
-
-- CCSS.MATH.CONTENT.HSA.SSE.1.a: Interpret parts of an expression, such as terms, factors, and coefficients.
-- CCSS.MATH.CONTENT.HSA.SSE.1.b: Interpret complicated expressions by viewing one or more of their parts as a single entity.
-
-prompt: You will create educational minigames based off the learning goals. The learning goals are what the student should learn by the end of the minigame. Each learning goal has a minigame. Each learning goal will have sub-goals. The student must have learned every sub-goal associated with it's learning goal to be considered having learned the learning goal. Each sub-goal must be covered in a minigame. The minigame for each learning goal must include each subgoal. Each minigame should have the learning goal code, a description, game mechanics, a game flow that goes through what the player does, and the sub-goals.
-
-MINIGAME 1:
-Learning Goal Code: AS.01.01.01.a
-Description: This game is an "Animal Origin Explorer" where players have to identify and summarize the origin and distribution of different animal species in various geographical locations.
-Game Mechanics: The player uses controls to navigate a map of the world. As they explore different regions, they encounter various animals and must use clues and research tools provided within the game to identify the animal and its origin. 
-Game Flow: The player starts with a blank world map and must fill it with the animals they discover. They have a 'research notebook' to gather and summarize their findings. Correct entries earn points, with extra points for finding rare animals or correctly identifying tricky ones. 
-Sub-Goals: This game addresses the following sub-goals - Identifying major animal species, their traits, and geographical distribution; Performing research to gather information about these species; Summarizing information accurately in the 'research notebook'.
-
-MINIGAME 2:
-Learning Goal Code: AS.01.02.01.b
-Description: "Farm Impact" is a strategy game that requires players to analyze the impact of different animal production methods on end product qualities and the environment.
-Game Mechanics: The player manages a virtual farm, choosing between different animal production methods (e.g. free-range, organic) and dealing with various challenges and factors affecting production and crop health.
-Game Flow: The player starts with a small farm and a budget to invest in livestock. They must make strategic decisions about production methods and manage resources to maximize yield. The game provides feedback on the environmental and marketing effects of their choices. 
-Sub-Goals: This game addresses the following sub-goals - Understanding different animal production methods: Assessing the impact of these methods on product quality, environmental health, and sales: Making evidence-based decisions to maintain or improve farm productivity.
-
-MINIGAME 3:
-Learning Goal Code: AS.02.01.01.a
-Description: The "Ethical Farmer" game will allow players to explore and understand the implications of animal welfare and animal rights for animal systems.
-Game Mechanics: The player will operate a virtual farm where they make decisions about animal housing, feeding, and care. They'll have to balance productivity and profit with the well-being of their animals.
-Game Flow: As players progress through the game, they face challenges related to animal welfare issues, such as overcrowding, disease, and harsh weather. They must find solutions that safeguard the animals' well-being while maintaining farm productivity.
-Sub-Goals: This game addresses the following sub-goals - Understanding the concept of animal welfare and rights: Applying this understanding to the management of a virtual farm: Creating strategies to handle challenges that impact animal well-being and productivity.
-
-MINIGAME 4:
-Learning Goal Code: CCSS.MATH.CONTENT.HSA.SSE.1.a
-Description: "Math Puzzle Express" is an engaging mathematical puzzle game where players simplify and interpret expressions within the context of a full cargo train.
-Game Mechanics: Players are provided with mathematical expressions presented as cargo loads, and their task is to simplify these expressions to make the cargo lighter.
-Game Flow: The player starts with a train with heavy cargos each carrying a mathematical expression. By interpreting and simplifying the expressions, the player can reduce the train's weight, allowing it to move faster to its destination.
-Sub-Goals: This game addresses the following sub-goals - Understanding mathematical expressions and coefficients, and simplifying complex expressions to make the cargo train lighter and faster.
-
+]

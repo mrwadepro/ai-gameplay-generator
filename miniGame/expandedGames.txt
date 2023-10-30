@@ -1,0 +1,668 @@
+original game: {'Learning Goal Code': 'AS.01.01', 'Description': 'Farmhouse Chronicles: Animal Origins and Implications', 'Game Mechanics': "The game is a combination of interactive storytelling, puzzle-solving, and strategic decision-making. Players will interact with different animal species, learn about their origins, domestication, and distribution, and make decisions that impact the farm's production practices and the environment.", 'Game Flow': 'The player starts as a new farmer who inherited an old farmhouse. They will encounter different animal species and through interactive dialogues and tasks, learn about their origins and significance. They will also learn about the characteristics that led to their domestication. The player will then make decisions on how to manage these animals on the farm, considering their adaptations and the implications on production practices and the environment. The player will also explore the history and scientific developments of different animal industries, and predict future trends and implications. The game progresses as the player successfully manages the farm and makes informed decisions.', 'Sub-Goals': [{'Code': 'AS.01.01.01.a', 'Description': 'Identify and summarize the origin, significance, distribution and domestication of different animal species.'}, {'Code': 'AS.01.01.01.b', 'Description': "Evaluate and describe characteristics of animals that developed in response to the animal's environment and led to their domestication."}, {'Code': 'AS.01.01.01.c', 'Description': 'Evaluate the implications of animal adaptations on production practices and the environment.'}, {'Code': 'AS.01.01.02.a', 'Description': 'Research and summarize major components of animal systems (e.g. Livestock, companion animal, etc.).'}, {'Code': 'AS.01.01.02.b', 'Description': 'Describe the historical and scientific developments of different animal industries and summarize the products, services and careers associated with each.'}, {'Code': 'AS.01.01.02.c', 'Description': 'Predict trends and implications of future developments within different animal industries on production practices and the environment.'}]}description: Title: Farmhouse Chronicles: Animal Origins and Implications
+
+Setting: 
+The game is set in a vibrant and interactive environment, an expansive idyllic farm nestled in the rolling countryside. The farm, surrounded by forest and a sparkling stream, contains different sections dedicated to various animals including barns, paddocks, stables, coops, and pens. The farmhouse serves as the main hub for players, complete with an interactive map of the farm, a mission board with tasks, and an archive of collected information about the animals encountered.
+
+Characters:
+1. Farmer John - The game's primary guide and mentor. Farmer John is a seasoned old farmer with a wealth of knowledge about different animals, and he eagerly shares this wisdom with the player. With his wrinkles and weather-beaten face, he embodies wisdom and patience, creating a warm and inviting atmosphere. 
+
+2. Annie - Farmer John's teenage granddaughter. Annie is lively, full of curiosity, and absolutely adores animals. Through her caring actions, players learn about the physical care and emotional nurturing animals need.
+
+3. The Animals - Different species of animals ranging from common farm animals like cows and chickens to more exotic ones like alpacas and peacocks.    
+
+Player's Actions: 
+The player, a young city dweller visiting the farm, takes on the role of an apprentice farmer. The user navigates through the sprawling farm, guided by Farmer John. The player's tasks involve a combination of practical chores such as feeding and grooming animals, and educational activities such as assembling jigsaw puzzles to learn about the anatomy of animals or matching games based on animal diet or habitat.
+
+Dialogue Samples: 
+“Welcome to our farm, friend!" Farmer John would begin, his voice filled with warmth. "We've animals aplenty here, each with a tale of their own. Ready for an adventure?"
+
+Annie invites you, "Do come with me to the stables. We can groom Mare Ruby, and I can tell you all about horses while we work."
+
+The game serves as an engaging educational tool that offers hands-on farming experience while providing profound insights into animal origins and behaviour. Though game-play, the player learns about different animals - where they originate from, their particular needs, and ecological importance.mechanics: Gameplay Mechanics:
+
+1. Interactive Storytelling:
+    - Players interact with Farmer John and Annie and discover stories about each species on the farm. Conversational interfaces allow players to communicate, asking questions or listening to the characters' explanations.
+    - The NPCs (non-player characters) dynamically respond to player choices - their questions, absorptions, and completion of tasks affect the subsequent storytelling.
+    - Lastly, the animals themselves have stories - origin stories, domestication journey, and unique anecdotes that can be learned as the player goes on to do missions with them.
+ 
+2. Puzzle-Solving:
+    - Part of the game focuses on educational activities such as solving puzzles to understand animal behaviours or their anatomy. For example, assembling a 3D model of an animal from various pieces or categorising animals based on their habitats.
+    - More complex puzzles could involve combining multiple animal facts to unlock new tasks or information. These puzzles would require exploratory learning and previous knowledge application, gradually increasing in difficulty as the player levels up.
+ 
+3. Strategic Decision-Making:
+    - Players need to decide how to take care of the animals on the farm best. Decisions on feeding times, diet types, and grooming schedules will impact animals' health and the farm's overall productivity.
+    - Players also make choices affecting the farm's environmental sustainability. They must consider factors such as waste management, water usage, and habitat protection. The player's choices towards the environment could grant rewards or penalties, integrating the importance of environmental consciousness within the mechanics.
+    - Risk and reward scenarios can be included where certain decisions (like adopting more exotic animals) might increase the farm's draw but also require more resources. These keep gameplay challenging and engaging.
+      
+4. Learning Implementations:
+    - The game exhibits an interactive learning method, employing quizzes, trivia, or factsheets as rewards for task completions, aiding in reinforcement of knowledge.
+    - Players also learn about farm management practices and principles of ecology and biology in contextual, immersive ways.
+    
+Through these mechanics, players are not just passive receivers of knowledge but are active participants in the application of learning- making the experience far more engaging and truly educational.game flow: Game Progression:
+
+Level 1: The Old Farmhouse - Arrival & Orientation
+As the game begins, the player arrives at the farm as the new owner, and the farmhouse is their first stop where they meet Farmer John. This level is a tutorial phase where the player learns basic controls, navigation, and farm chores by completing rudimentary tasks under Farmer John's guidance.
+
+Characters: Farmer John, farm animals (like chickens and cows)
+
+Level 2: Barnyard Beginnings - Domesticated Animals
+The player continues to the farmyard for the next phase where they focus on domesticated animals - exploring their origins, characteristics, and reasons for their domestication. Tasks involve feeding, milking cows, collecting eggs, and answering quizzes about the animals.
+
+Characters: Farmer John, Annie, farm animals, (cows and chickens) 
+
+Level 3: The Exotic Enclosure - Non-Conventional Farm Animals
+The player now progresses to the parts of the farm housing exotic animals such as alpacas and peacocks. The player learns about these animals and decides on their care routines, factoring in their unique adaptations, and requirements.
+
+Characters: Annie, Exotic animals (Peacocks, Alpacas)
+
+Level 4: The Green Imperative - Farm Management & Environment 
+This level introduces the concept of sustainable farming practices and environmental implications of animal farming. The player makes strategic decisions to ensure efficient production while minimizing environmental harm. 
+
+Characters: Farmer John, Annie, all farm animals
+
+Level 5: The Industry Implications - Future of Animal Farming
+In the final level, the player gains insights into the impact of livestock industries on society, economy, environment, and the potential trends in animal farming. The player decides on adopting advanced farming technologies and adapting to any predicted changes in farming practices.
+
+Characters: Farmer John, Annie, all farm animals.
+
+Each level concludes with an assessment phase where Farmer John evaluates the player's decisions and their impact on the farm’s productivity and overall health of the farm animals. Upon successful completion, players proceed to the next level. The game progresses in difficulty and complexity, requiring the player to use their knowledge from previous levels and effectively manage the farm.original game: {'Learning Goal Code': 'AS.01.02', 'Minigame Title': 'Farmhouse Production and Marketing Master', 'Description': 'In this minigame, players will take on the role of a farmer who must select and implement animal production methods, analyze their impacts, and market their products effectively. The game will provide real-world scenarios and data to help players understand the complexities of animal production and marketing.', 'Game Mechanics': "The game is divided into two main sections: Production and Marketing. In the Production section, players will choose their production methods and see the effects on their animals and products. In the Marketing section, players will create and evaluate marketing plans, calculate costs, and predict sales. The game will provide feedback and scores based on the effectiveness and impacts of the players' decisions.", 'Game Flow': "Players start by selecting their animal production methods. They will then receive information about the impacts of these methods on product quality, animal welfare, and sustainability. Next, players will move on to the Marketing section where they will research marketing methods, calculate costs, and devise marketing plans. The game will provide feedback and scores based on the effectiveness and impacts of the players' decisions. To win, players must achieve a balance of effective production and successful marketing.", 'Sub-Goals': ['AS.01.02.01.a Identify and categorize terms and methods related to animal production (e.g.  Conventional,  humanely raised,   natural,  organic,  etc.)', 'AS.01.02.01.b Analyze the impact of animal production methods on end product qualities (e.g.  Sustainability,  marketing,  labeling,  animal welfare,  etc.)', 'AS.01.02.01.c Evaluate the effectiveness of different production methods and defend the use of selected methods using data and evidence.', 'AS.01.02.02.a Research and examine marketing methods for animal products and services (e.g.  niche markets,  locally grown,  etc.)', 'AS.01.02.02.b Calculate costs of marketing versus predicted increases in sales.', 'AS.01.02.02.c Devise and evaluate marketing plans for an animal agriculture product or service.']}description: Title: FarmLife: Animal Production and Marketing
+
+Setting:
+Our game is set in a picturesque, interactive, 3D simulation of a sprawling farm in the sun-kissed liberty county. It is a tranquil world with lush meadows, a serene barn, lively poultry, vibrant farmer's markets, and buzzing auction markets promising an immersive farming experience.
+
+Characters:
+1. Main Character: John Appleseed - A seasoned farmer with years of knowledge in animal growing and marketing. He is the player's mentor, always ready to provide guidance whenever the player encounters challenges.
+   
+2. AI Character: Aggie, the Intelligent Farm Assistant – Aggie is a highly advanced Artificial Intelligence (AI) bot that helps farmers analyze real-world scenarios and data.
+
+User and Character Actions:
+
+The game starts with the player (as John) standing in his empty farm. Aggie greets John, "Good morning, Farmer John! This is a new day and a new opportunity to raise some healthy livestock and make profits at the market!"
+
+As John waves back, the player is prompted by the game UI to select from a variety of animal production options presented before him. Choices include chickens, cows, pigs, sheep, or all of them. Each choice has implications for resource allocation, potential profits, and market strategy. 
+
+The player's choice triggers Aggie's data analysis mode. For instance, if the player chose to rear chickens, Aggie would chime in, "Rearing chickens primarily for egg production would require different techniques compared to rearing them for meat, Farmer John. The choice greatly influences your overall strategy."
+
+The game presents dynamic, real-world scenarios such as changes in the weather, disease outbreaks, market crashes, etc. In each scenario, Aggie provides data-backed advice while John offers practical wisdom. For example, when a storm is forecasted, Aggie might say, "John, based on data from previous years, the impending storm could damage the chicken coops. I would recommend taking protective measures." John might then suggest, "I've lived through many storms, Aggie. I suggest we move the chickens to the barn and secure the outdoor coops."
+
+In addition to rearing animals, the player has to implement effective marketing strategies for their animal products. They can choose between selling at a local farmer's market or at larger auctions. Aggie provides real-time, data-driven market analysis while John shares his experiences to guide the player's choices.
+
+For example, when the player chooses to sell milk in the local market, Aggie might advise, "Farmer John, according to our data, demand for fresh, organic milk has surged in recent weeks. I recommend adjusting prices to maximize profits!" John might agree, adding his human touch, "The townsfolk sure do love our fresh milk. Let's give them the best, Aggie!"
+
+Throughout the game, John and Aggie interact seamlessly, bringing together human expertise and AI intelligence to provide a realistic, well-rounded farming experience for the player.
+
+The game ends on a positive note with an evaluation of the player's performance, providing the player with a comprehensive understanding of the complexities of animal production and marketing.mechanics: Game Mechanic Details:
+
+PRODUCTION SECTION:
+
+1. Selection Mechanic: The player chooses the type(s) of animal(s) to rear on their farm. Specific resources and techniques are required for each, significantly impacting the gameplay experience.
+
+2. Resource Allocation: Depending on the animals selected, players allocate resources for feed, housing, health products, and labor. 
+
+3. Animal Health and Growth: The well-being and growth of the animals is determined by players' choices. The game will randomly generate events such as illnesses or natural disasters that can affect the animals. Players will need to act responsibly and swiftly to protect their farm.
+
+4. Data Analysis: The AI bot, Aggie, collates data and provides useful insights for players to consider and implement in managing the farm. John, the mentor, gives experienced advice in practical terms. The combined inputs of Aggie and John shape how effectively players are able to respond to events and make decisions.
+
+MARKETING SECTION:
+
+1. Marketing Channel Selection: Players decide where to sell their animal products – either at local farmer's markets or higher-stakes auctions.
+
+2. Market Analysis: Aggie provides players with real-time market conditions and advice. Factors taken into account include buyer demand, competitive pricing, and market trends.
+
+3. Pricing and Selling: Players determine product prices based on Aggie's data and John's advice. They implement marketing strategies and experience the results in real-time.
+
+4. Evaluation and Scoring: Players' marketing strategies are evaluated in terms of cost-effectiveness, sales volume, and revenue. The combination of these elements results in a final score for their marketing efforts.
+
+The game loops back and forth between the Production and Marketing Sections, simulating the real-life cycle of rearing and selling farm animals. The results of marketing activities directly influence decision-making back in production, creating a seamless symbiosis between the two sections of the game.
+
+Finally, an endgame mechanic evaluates the player's overall performance based on farm management and marketing revenues. Utilizing Aggie and John’s advices helps players learn about the intricacies of farm management – providing a challenging, educational, and entertaining experience throughout the game.game flow: Further Game Description:
+
+PRODUCTION SECTION:
+
+1. Selection and Impact of Animal Production Methods: The game starts by allowing the player to select the type(s) of animal(s) they wish to farm. For example, players may opt to focus only on poultry, or on a combination of poultry and cattle, etc., based on their preferred method. Once the selection is made, the player will receive tangible and immediate feedback on their decision. For instance, players who choose to rear chickens for eggs will see different development and production outputs compared to players who choose to rear chickens for meat production. Similarly, choosing cattle involves understanding the intricacies of dairy or meat production. Each choice involves a range of decisions around feeding, housing, disease prevention, and overall care for the animals. These decisions directly influence animal welfare and product quality.
+
+2. Sustainability and Animal Welfare: 'FarmLife' doesn’t only teach animal production, it also instills respect for the welfare of animals. The game will reward measures that ensure good living conditions for the animals such as comfortable housing, nutritious feeding, regular health checks and disease prevention. It subtly encourages sustainable farming practices that respect nature and maintain a balance in the ecosystem, such as limiting deforestation and reducing pollution.
+
+MARKETING SECTION:
+
+1. Research and Costing of Marketing Methods: After successful production, players move onto marketing their products. They must consider multiple marketing channels - direct sales on the farm, at local farmer's markets or via auctions. Each channel has its own cost and return scenario that players must understand. Calculating costs includes considering transportation, renting stalls at farmers' markets, the auction house cut, or advertising for direct sales from the farm. Aggie aids players by providing existing market data to help them make an informed decision.
+
+2. Development of Successful Marketing Strategies: Based on their selected sales channel and calculated costs, players devise marketing plans. This includes deciding on pricing, promotional activities, identifying target customers, and forecasting sales. For instance, players selling at a farmer’s market may benefit from promotional strategies such as offering samples, selling in bundles, or seasonal offers. 
+
+GAME EVALUATION AND SCORING:
+
+After taking various decisions and engaging with different game mechanics, 'FarmLife' evaluates and scores the player. The evaluation takes into consideration the player's handling of animal production and the success of their marketing strategies. Thus, achieving high animal welfare, quality production, sustainability, and profitable sales will result into a higher overall score. The game encourages the players to strive for this balanced success, where neither production nor marketing is neglected and both are done responsibly and effectively.
+  
+The 'FarmLife' game aims to educate and entertain players about the challenges, intricacies, and rewards of sustainable farming, thus marrying ecological consciousness with business planning.original game: {'Learning Goal Code': 'AS.01.03', 'Minigame Title': 'Farmhouse Legislation & Sustainability', 'Description': 'In this minigame, players will take on the role of a farmer who must navigate the complex world of animal agriculture laws and sustainable practices. They will need to make decisions about their farming practices while considering the impact on the environment, the local and global community, and the sustainability of their farm.', 'Game Mechanics': 'The game will be a point-and-click adventure game. Players will interact with different elements of the farm, make decisions about their farming practices, and answer questions to demonstrate their understanding of the laws and sustainable practices.', 'Game Flow': 'The game begins with the player inheriting a farm. They will be presented with different scenarios and will need to make decisions based on their understanding of the laws and sustainable practices. They will also need to answer questions to demonstrate their understanding. The game will provide feedback on their decisions and answers, helping them to learn and understand the concepts. The game ends when the player has successfully navigated all the scenarios and demonstrated their understanding of all the concepts.', 'Sub-goals': [{'Code': 'AS.01.03.01.a', 'Description': 'Distinguish between the types of laws pertaining to animal systems.'}, {'Code': 'AS.01.03.01.b', 'Description': 'Analyze the structure of laws governing animal industries'}, {'Code': 'AS.01.03.01.c', 'Description': 'Evaluate the impact of laws pertaining to animal agriculture (e.g.  Cons,  effect on individuals,  effect on businesses,  etc.) and assess the compliance of production practices with established regulations.'}, {'Code': 'AS.01.03.02.a', 'Description': 'Research and summarize sustainability in animal systems.'}, {'Code': 'AS.01.03.02.b', 'Description': 'Analyze the local and global impact of sustainable animal agriculture practices on human and environmental systems.'}, {'Code': 'AS.01.03.02.c', 'Description': 'Select, evaluate and defend the use of sustainable practices in animal agriculture.'}]}description: Title: Sustainable Fields
+
+Characters:
+1. Billy - An experienced but slightly eccentric guide who helps the player.
+2. Eve - A knowledgeable environmentalist providing insight.
+3. Rob - A market-savvy dealer offering trade deals.
+4. Anne - A neighboring, cooperative farmer willing to assist.
+5. Mayor Jane - A local authority advising on laws and regulations.
+
+Game Set-Up:
+The scenario is set in the simplistic yet charming rural town of Greendale where most of the locals are involved in farming in one way or another. A robust farming landscape stretches beyond the horizon, filled with fields ready for cultivation, barns for livestock, and other farming facilities. Various weather patterns replicate the challenges of real-life farming.
+
+Gameplay:
+Players assume the role of Sam, an ambitious farmer inheriting an old farm that's faced generations of conventional farming. Sam wants to revolutionize it with sustainable practices.
+
+Dialogues and Actions:
+
+1. Billy: "You've to understand the balance, Sam. Profit, planet, and people - all three matter. Let's inspect your farming equipment."
+   - Players interact with different tools, understanding and deciding what to mend or replace.
+
+2. Eve (visiting the farm): "Sam, switch to organic compost. It's good for the soil and helps avoid harmful chemicals."
+   - Players are given a choice: buy chemical fertilizer (short-term gain, long-term damage) or produce organic compost (long-term gain, short-term effort). Actions have direct environmental impacts.
+
+3. Rob (in the city market): "Got good yields there, Sam! But, mind the laws on fair trade and labour use."
+   - Decisions players make affect their relationships with the local and global community. Strict observance of laws ensures that players maintain a good reputation.
+
+4. Anne (on the bordering farm): "My cows are all sick, Sam. Can I lend a few of yours till I sort this out?"
+   - Players learn about inter-farm cooperation. Lending animals could reduce their short-term profits but enhances their relationships, ensuring help in tough times.
+
+5. Mayor Jane (during town hall meetings): "We've new regulations in place to limit water usage. Please abide by them."
+   - Players need to adapt to new policies, respecting the real-life dynamics of governmental regulations in farming. Optimal utilisation of resources becomes evident through such regulations.
+
+The minigame will continue to bring up challenges that make players juggle ecological considerations and economic demands, allowing them to see the ripple effect of each decision. Ultimately, players should learn that finding a balance is key in managing sustainable farm practices.mechanics: Game Mechanics:
+
+1. Interaction Mechanics:
+
+- Point and Click: The player can interact with the environment using a mouse pointer (or a touch screen on mobile). The cursor will change to indicate interactive items on the screen. Interaction includes clicking on characters to initiate dialogues or action sequences, inspecting equipment, managing farm processes, and making decisions.
+
+- Dialogue Trees: Interaction with characters will be handled via dialogue trees. Players can choose from pre-set responses, with each choice affecting the game's direction, relationships, or farm's state.
+
+- Equipment Interaction: Players will interact with farming equipment by clicking on items and selecting options like "repair", "replace" or "discard". The player's decision will directly impact farm operations and their sustainability score.
+
+2. Decision Mechanics:
+
+- Organic vs Chemical Fertilizers: Players will have to choose between two farming methods. Buying chemical fertilizers is cheaper and provides immediate results but damages the soil in the long run. Organic farming, on the other hand, requires more effort and time but is beneficial in the long term. The player's choice will impact the long-term health of the farm and its sustainability.
+
+- Fair Trade Decisions: In the city market, players will need to sell their farm produce while ensuring fair-trade practices. These decisions will impact the player's relationship with the local and global community, their reputation, and the farm's profitability.
+
+- Cooperation Decisions: Players will have an opportunity to cooperate with neighboring farmers such as lending or borrowing livestock. Such decisions could reduce the player's short-term profits but can enhance relationships and potentials for help in future. 
+
+- Government Regulations: The player will have to take decisions respecting governmental regulations, like limiting water usage. The game will assess the player's adaptability to these laws and their ability to manage resources optimally.
+
+3. Learning and Progression Mechanics:
+
+- Sustainability Score: To quantify the player's progress in sustainable farming, a Sustainability Score will be maintained. This score increases or decreases based on the player's actions and decisions.
+
+- Pop-Up Facts: To assist with decisions and deepen the player's knowledge of sustainable farming, pop-up facts about eco-friendly farming practices and their benefits/drawbacks will appear during strategic moments.
+
+- Reputation System: A system that gauges player's relationship status with NPC characters and the community at large.
+
+- Quests and Tasks: To guide the player through the gameplay, quest lines for each character can be implemented. Completing these tasks can increase the player's sustainability score, reputation points, and progress the storyline.
+
+The aim is to create an engaging gaming experience where players can learn about the challenges and benefits of sustainable farming practices. Ultimately, the goal is for the player to maintain a successful and sustainable farm by managing resources effectively, cooperating with neighbors, respecting the law, and making responsible decisions.game flow: Sure, here is an expanded version of the game flow:
+
+Level 1: Inheritance and Introduction
+
+The game begins with Sam, the player character, receiving news that he has inherited a farm from his deceased grandfather. When Sam arrives at the farm, he won't be alone. Billy, the experienced and slightly eccentric guide, greets Sam and explains the basics of the game as well as the three parameters of the game (profit, planet, and people). In this part, players can explore the environment by clicking on various elements to learn about the current state of the farm, which is somewhat rundown due to traditional farming practices.
+
+Level 2: Decision-Making Early Stages
+
+Eve, an environmentalist, visits the farm and suggests Sam to switch to organic farming methods. Players will need to decide whether to continue with chemical fertilizers (cheap and gives immediate results) or to switch to organic compost (requiring more effort and time but sustainable). This decision will affect the soil's health and the farm's future performance.
+
+Level 3: Market Interaction & Compliance
+
+Players will visit the city market for the first time with their current form of produce. Here they will meet Rob, who provides economic insights on the importance of following fair-trade laws and considering labor use. The options players choose here will impact their reputation in the market, affecting future trade possibilities. 
+
+Level 4: Inter-Farming Co-operation
+
+Anne, a neighboring farmer and friend, asks for help as her cattle got sick. If players decide to lend their cattle to her, it will reduce their short-term profits but improve their relationship with Anne, setting up a potential help line for future trouble.
+
+Level 5: The Governmental Influence
+
+In a town hall meeting, Mayor Jane announces a new regulation about water usage. Players must adjust their usage to adhere to this policy, which can prove to be a challenge. The decision player make at this stage will directly bear upon their sustainability score and reputation.
+
+Quiz Levels - Understanding & Learning Phase
+
+Interspersed with these decision-making stages will be quiz levels where players will have to answer questions based on their decisions, actions, understanding of sustainable farming practices, laws, and regulations for fair-trade. This provides an opportunity to correct any misconceptions and understand the real-life implications of their choices.
+
+End Game: Achieving Sustainability Balance
+
+The game concludes when the player has successfully managed all scenarios by building an economically sound & sustainable farm, maintaining fair trade and good neighborly relationships, and adequately following environmental regulations. At this point, players should have demonstrated a clear understanding of sustainable farming and created a farm that is a model of sustainable practices. The final scene can end with a county award ceremony presided by Mayor Jane, where Sam and his sustainable farm are recognized before his peers.original game: {'Learning Goal Code': 'AS.02.01', 'Minigame Title': 'Farmhouse Welfare Manager', 'Description': 'In this game, players will manage a virtual farmhouse, ensuring the welfare of various animals. They will design and implement welfare programs, handle challenges, and make decisions about animal husbandry practices.', 'Game Mechanics': "The game is a simulation where players will interact with a virtual farm environment. They will have to monitor the animals' health and happiness levels, design and implement welfare programs, and make decisions about animal husbandry practices. The game will present various challenges and scenarios that the player will have to navigate, using available resources and information about animal behavior.", 'Game Flow': "The player starts with a small farm with a few animals. They will have to monitor the animals' health and happiness levels, and make decisions to ensure their welfare. This might involve designing a feeding program, implementing a quality-assurance procedure, or deciding how to safely move and restrain animals. The game will present various challenges, such as a sick animal or a broken fence, and the player will have to use available resources and information to solve these problems. The game will provide feedback on the player's decisions, allowing them to see the impact of their actions on animal welfare.", 'Sub-Goals': ['AS.02.01.01.a', 'AS.02.01.01.b', 'AS.02.01.01.c', 'AS.02.01.02.a', 'AS.02.01.02.b', 'AS.02.01.02.c', 'AS.02.01.03.a', 'AS.02.01.03.b', 'AS.02.01.03.c']}description: Title: "Farmville Welfare"
+
+Characters:
+
+1) Sammy Shepherd: Sammy is an aged, kind-hearted, and experienced farmer with a wealth of knowledge about animals and their welfare. He acts as the mentor and guide throughout the game, providing players with helpful insights.
+
+2) Daisy Doe: Daisy is a young, enthusiastic vet who visiting the farm on a regular basis. She helps players when it comes to treating animals in case of diseases or injuries. 
+
+3) The Player: The player is a new farmer, eager to managing their first-ever farm.
+
+Settings:
+
+The game is set in the countryside, a vast, colorful landscape filled with fields, barns, pastures and a quaint little farmhouse at the center. There are several areas dedicated to different animals including a barn for cattle, chicken coops, pasture for horses and pig pen.
+
+Dialogues/Scenarios:
+
+1) Sammy to Player: "Welcome to our farm. It's not the largest around, but it sure is full of life. Your duty is to ensure all our little friends are taken care of. You'll decide what to feed them, when to let them out, and when they need a vet. Remember, the happier the animals, the healthier the farm."
+
+2) Daisy to Player: "Your cows seem a little under the weather. I suspect they might need a change in their nutrition. Try adding a few different foods into their feeding mix this week."
+
+User's Action:
+
+The game accommodates an engaging and immersive experience. The player has to make daily decisions like feeding the animals, scheduling their vet visits, arranging their sleep and play hours. As they roam around the farm, they can feed the cattle, check the hen's eggs, milk the cows, prepare horses for rides. They can also interact with Sammy or Daisy for advice, feedback or help.
+
+Tasks become more challenging as the game progresses - encountering diseases, dealing with pregnancies and newborns, protection against predators, extreme weather, and more. Practical knowledge like reading changes in animal behavior, providing balanced nutrition, or handling emergencies could be learned from Sammy and Daisy.
+
+Character's Actions:
+
+Sammy often walks around the farm, interacting with animals, repairing farm equipment and maintaining cleanliness. He is also available to check on the welfare programs you have set in place, offering his wisdom and guidance when necessary.
+
+Daisy visits regularly, equipped with her medical tools. She checks on sick animals, administers vaccines, takes care of newborns, and helps the player in taking the right decisions about animal husbandry practices.
+
+To enrich the game, there could be mini-games included in the plot, like an emergency where Sammy teaches the player to shoe a horse, or when Daisy needs help in administering a difficult treatment. These can serve as a delightful break from routine while also subtly teaching the player. 
+
+"Farmville Welfare" isn't just a game. It's an engaging, educational journey aimed at instilling an appreciation and understanding of what it takes to ensure animal welfare in the farming industry.mechanics: Gameplay Mechanics:
+
+1) Character Interaction: The player character can interact with Sammy and Daisy for advice or assistance. Interaction would be triggered by moving to the proximity of the given character and pressing the interact key. Dialogue options appear that guide the decision-making process, explain game mechanics, or progress the narrative.
+
+2) Livestock Monitoring: There must be an interface that allows the player to easily check on each of the endearing farm animals, monitor their health, happiness, and cleanliness levels. On-screen indicators or notifications can alert the player when the animals are hungry, sick, dirty, or unhappy. 
+
+3) Animal Care: Challenges associated with feeding the animals require the player to purchase or gather the appropriate food for each type, and feed them at specific intervals. Player may have to adjust the diet of animals based on their health condition and feedback from Daisy.
+
+4) Welfare Programs: The player can use an in-game menu to implement strategies such as feeding schedules, regular health checkups, exercise times, and cleaning routines. The effectiveness of these programs will impact the overall health and happiness of the animals.
+
+5) Mini-Game Challenges: Moments where the player must actively perform a task, such as helping Daisy treat a sick animal or assisting Sammy in repairing a pen, are represented as mini-games. These could involve timed button presses, precision aiming, or short puzzles.
+
+6) Daily Routine and Time Management: The game follows a day-night cycle. Player makes choices on how to spend their time. Activities could include feeding animals, cleaning pens, discussing with Sammy and Daisy, working on farm improvement, or resting.
+
+7) Weather and Seasonal Changes: These conditions affect the health of animals and may require admission of new policies or alterations to current ones.
+
+8) Farm Expansion: As the player progresses, they may get to expand the farm, adding new facilities, animals, and challenges. Expansion could also include hiring additional helpers, improving farm equipment, enhancing animal shelters and many more.
+
+9) Learning and Progress: The knowledge and tips gathered from Sammy and Daisy can be stored in an in-game journal for the player to refer back. The progress of the player can be assessed through the welfare state of the animals and the overall health and productivity of the farm.
+
+10) Decision Making and Consequence: Player's decisions whether big (like introducing a new type of animal to the farm or investing in heavy machinery) or small (like altering the diet of a single animal or changing their sleep schedule) have real-time impacts on the gameplay. A good decision improves animal welfare, increases productivity and helps maintain a happy farm, while bad decisions can lead to sick animals, decreased productivity and even animal death.game flow: Game Flow:
+
+The game commences with the player inheriting a small farm with a few animals (a couple of cows, chickens and a horse), which they need to care for. Sammy Shepherd introduces the game basics and farm layout.
+
+Level 1- Basic farm Management & Animal Care:
+The player learns basic tasks of feeding, cleaning, and health monitoring. Player designs a simple feeding program, implements a quality-assurance procedure, and learns to move and restrain animals safely. Challenges at this level are simple (a hungry animal, a dirty pen, an unfed animal etc) and are meant to familiarize the player with game mechanics. 
+
+Interactions with Sammy and Daisy are crucial at this level for the player to learn about animal behaviors, dietary needs, and basic animal care. Successful completion of challenges increases the player experience and the level ends when the player has successfully cared for animals for a week in game time maintaining their health and happiness levels.
+
+Level 2- Advanced Animal Care & Dealing with Emergencies:
+More animals are added to the farm such as pigs and sheep. The player must increase the complexity of their feeding program and quality-assurance procedure to accommodate the new animals. 
+
+Challenges are more complex like an animal getting sick, a broken fence, harsh weather conditions etc. The player must gather resources, consult with Sammy or Daisy, or figure out a solution themselves. Any delay or poor decision-making impacts the farm negatively. On the contrary, handling emergencies efficiently awards bonus points. 
+
+This level concludes when the player has successfully managed the farm for a month (game time) and all the animals have appropriate health and happiness levels.
+
+Further Levels- Farm Expansion & New Challenges:
+As the game progresses, new levels unlock more complex elements like farm expansion, introduction of new animals (e.g. goats, ducks), dealing with predators, animal births, and even animal vaccination and treatment programs. 
+
+Every level tests and develops the management skills of the player and gives them a deeper insight into animal welfare. If player's decisions lead to consistent animal welfare, they are rewarded with farm upgrades, new animals, and special abilities.
+
+In each level, player's interaction with Sammy provides valuable input into maintaining the farm, while Daisy teaches crucial lessons about animal health, making both characters integral to the player's progress. Feedback on decisions is provided by the overall health of the farm, productivity levels, and direct feedback from Sammy and Daisy. This gives the player a clear sense of the impact of their actions.
+
+Mini-games linked to emergencies (like mending a fence, nursing a sick animal back to health) add an interactive element and also serve as a breather from the routine tasks. 
+
+The game maintains engagement by ensuring that the player's decisions and their ability to adapt to escalating challenges directly affect the welfare of the animals and the prosperity of the farm.original game: {'LearningGoalCode': 'AS.02.02', 'Description': 'Farm Safety Quest: A game set in a virtual farmhouse where players must ensure the safety of animal products for consumption.', 'GameMechanics': 'Players will interact with various tools, technology, and equipment in the game to perform tasks related to animal husbandry and welfare. They will also research and analyze various animal production practices and their potential health risks. The game will also involve tracking systems for different animal species and evaluating their effectiveness.', 'GameFlow': 'Players start by selecting the tools and equipment they will use for animal husbandry tasks. They then perform these tasks, with the game providing feedback on their effectiveness. Players will also encounter scenarios where they must research and analyze potential health risks associated with certain animal production practices. They will also have to address consumer concerns related to these practices. The game will also introduce animal tracking systems, and players will have to analyze and evaluate their effectiveness.', 'SubGoals': [{'Code': 'AS.02.02.01.a', 'Description': 'Identify and categorize tools, technology and equipment used in animal husbandry and welfare to help provide an abundant and safe food supply.'}, {'Code': 'AS.02.02.01.b', 'Description': 'Utilize tools, technology and equipment to perform animal husbandry and welfare tasks.'}, {'Code': 'AS.02.02.01.c', 'Description': 'Select technology or equipment used to perform animal husbandry and welfare tasks.'}, {'Code': 'AS.02.02.02.a', 'Description': 'Research and summarize animal production practices that may pose health risks.'}, {'Code': 'AS.02.02.02.b', 'Description': 'Analyze consumer concerns with animal production practices relative to human health.'}, {'Code': 'AS.02.02.02.c', 'Description': 'Research and evaluate programs to assure the safety of animal products for consumption.'}, {'Code': 'AS.02.02.03.a', 'Description': 'Identify and describe animal tracking systems used in animal systems (e.g. companion animal, exotics, etc.).'}, {'Code': 'AS.02.02.03.b', 'Description': 'Analyze and summarize the impact of animal trace-back capabilities on producers and consumers.'}, {'Code': 'AS.02.02.03.c', 'Description': 'Evaluate the effectiveness of animal and/or premise identification programs for a given species.'}]}description: Title: Farm Safety Quest: Assurance Adventure
+
+Game Environment: 
+
+The game is set in a lush, expansive, virtual two-story farmhouse surrounded by barns, fields, and livestock. A quintessential windmill slashes serenely through the endless sky, and across the horizon, you can see various kinds of domestic animals graze and move around. The main farmhouse has a warm rustic charm with exposed wooden beams crisscrossing the ceilings. Red-checkered curtains whip about with the wind through open windows. Barns are equipped with the latest safety tools and procedures to make the animals' stay healthy and safe.
+
+Characters:
+
+1. Grayson, the User: An eager aspiring farm check-up inspector, new to the profession. The player's avatar can be customized to preference.
+
+2. Eunice, the Farm Owner: A sharp, wise older woman who inherited her family's farm. She's upbeat and burns with the spirit of hospitality but knows nearly nothing about safety protocols.
+
+3. Chip, the Friendly Farmhand: A practical-minded character who guides Grayson through the intricate labyrinth of farm protocols.
+
+4. The Inspector: A no-nonsense government official who arrives to evaluate the farm at the end of each level.
+
+Gameplay:
+
+As Grayson, the user starts the game in Eunice's farmhouse kitchen. Eunice introduces Grayson to the gameplay: "Welcome, Grayson, to the Harvest Haven Farm! We need to ensure the food we produce meets the top-quality safety standards. Are you up for it?" 
+
+Then you meet Chip out in the yard. He guides you through the game’s mission: "Hey there, I've been working on this farm for ages. Trust me, making sure that everything runs safely here isn't easy. You need to check the health of animals, ensure clean environments, and verify proper handling of the food products."
+
+The user, as Grayson, interacts with different settings including the barn, chicken coop, cow shed, and farm produce sections, ensuring the animals are healthy, the places are sanitized, and animal products are adequately isolated and stored. Aside from assessing problems, Grayson might have to fix issues like leaky barn roofs, incorrectly installed equipment, or administer first-aid to a sick animal.
+
+The dialogue helps guide Grayson through tasks. For example, Eunice might say, "Grayson, dear, the hens have been laying fewer eggs lately. Can you check on them?" 
+
+The game progresses with tasks becoming more complex, needing both speed and understanding. If the player struggles or is unsure, Chip is always nearby to give some timely advice: "Remember, Grayson, raw milk must be stored at a temperature below 40°F to avoid the growth of bacteria."
+
+Each completed task earns safety points that aggregate, allowing for farm upgrades and bonuses. The game concludes with the Inspector's visit, who will evaluate the farm based on its safety point score. "Well, Grayson, Eunice and Chip. Let's see how Harvest Haven Farm fairs up against the safety regulations."
+
+Farm Safety Quest: Assurance Adventure uses this engaging storyline to make players aware of food safety guidelines in real life as well. It ensures a fun yet educational experience for all its users.mechanics: Gameplay Mechanics:
+
+1. Tool and Equipment Interactions:
+To perform the tasks related to animal husbandry and welfare, players will have a variety of tools and equipment at their disposal. Their avatar, Grayson, can pick up, use, and store these tools in an inventory. The tools may include items for grooming, feeding, or providing medical treatment to animals. Using the right tool or equipment for a situation will be critical and affect the outcome of a task.
+
+Coding Requirements:
+- Object Interaction: Allow Grayson to pick up, use, and store items in an inventory.
+- Task Outcome: Implement coding to determine the outcome of tasks based on the appropriateness of tool use.
+
+2. Research and Analysis:
+Players will have access to an in-game library or database where they can research different aspects of animal production and evaluate their potential health risks. This might involve reading up on different types of feed, the effects of different climate conditions, and potential diseases.
+
+Coding Requirements:
+- In-Game Database: Create an accessible database or library containing detailed information on different aspects of farming and animal production.
+
+3. Animal Tracking Systems:
+Each type of animal on the farm will have a tracking system. This can provide information like the animal's health, production rate (milk, eggs, etc.), and overall welfare. Evaluating these systems effectively, and taking action based on that evaluation, will be a critical part of the gameplay and affect the farm's overall safety score.
+
+Coding Requirements:
+- Animal Status System: Implement an animal tracking system that provides up-to-date health and performance information for each animal.
+- Impact Logic: Develop a system that determines the impact of player actions on the farm's overall safety score, based on the evaluations of the tracking systems. 
+
+4. Health Risk Evaluation:
+Players will need to assess the health risks associated with different farming activities. For example, incorrect storage of milk could lead to bacterial growth, representing a health risk. Time-based challenges can be introduced where players have to quickly handle situations before they turn into significant health risks.
+
+Coding Requirements:
+- Risk Evaluation System: Create a procedure that determines health risks based on player actions.
+- Challenge System: Implement scenarios that present potential health risks and challenge players to handle them efficiently.game flow: Farm Safety Quest: Assurance Adventure begins with the player selecting their tools and equipment from the barn. This could range from brushes and feeding troughs to temperature monitors and health inspections kits. Once the tools are selected, the player is presented with various tasks related to animal husbandry, such as feeding the cows, cleaning the chicken coops, or even administering medical treatment to a sick horse. The tasks are time-bound and rewards are based on their successful completion.
+
+Feedback is given to the player after each task. For instance, if a player is checking a cow's milk quality, they would use the correct toolkit to collect samples and examine it under a microscope (in-game tool). If done correctly, the game indicates a successful task completion. However, if an incorrect tool is used or missed, feedback is also given to improve the player's understanding and guide them correctly for future tasks.
+
+As the game progresses, players will encounter scenarios requiring research and analysis within an in-game database or library. For instance, the player may be finding abnormal results from cow milk samples, indicating the possibility of a disease or nutritional deficiency. Here they have to analyze the symptoms, refer to the database, and determine the necessary steps to mitigate this health risk. 
+
+In other scenarios, players might find consumer letters at the farmhouse mailbox, voicing concerns about the ethical treatment of animals or quality concerns about farm produce. These open new missions for players to investigate, ensuring the farm's practices conform to ethical requirements and consumer satisfaction.
+
+The game also introduces an animal tracking system, which is used to monitor an array of factors ranging from animal health, food consumption levels, milk/egg production rates, etc. The player has to regularly check these systems and interpret the data. For example, if there's a sudden drop in egg production from the coop, Grayson might need to check if the hens are not feeling well or if there are any other indicators for that issue. 
+
+Each successful task, analysis, health risk mitigation, and adequately addressed consumer concern increases the farm's safety score. In contrast, other neglected tasks might contribute to a decrease in the overall safety score. The goal is to maintain and improve the farm safety score to pass the periodic inspections with favorable remarks.
+
+The game is an engaging mix of farm activities, animal husbandry tasks, and health risk management, keeping the player always engrossed in the Farm Safety Quest: Assurance Adventure.original game: {'Learning Goal Code': 'AS.03.01', 'Description': 'In this minigame, the player will be tasked with managing a virtual farm, where they will be responsible for feeding and taking care of a variety of animals. The player will need to understand and apply knowledge of the nutritional needs of these animals at different stages of their lives and in different production systems.', 'Game Mechanics': "The player will start with a small farm with a few different types of animals. Each animal will have a 'health' and 'growth' bar. The player will need to feed the animals the correct type and amount of food to keep their health up and promote growth. The type and amount of food required will change depending on the animal's stage of life and the production system the player chooses (e.g. organic, natural, etc.).", 'Game Flow': "The player starts with a tutorial that explains the basics of animal nutrition and how to feed the animals. The player then starts with a small farm and a few animals. The player will need to buy food and feed the animals. The player will need to monitor the animals' health and growth and adjust their feeding as necessary. The player can expand their farm and get more animals as they progress in the game. The game ends when the player has successfully raised a certain number of animals to adulthood in each production system.", 'Sub-Goals': [{'Code': 'AS.03.01.01.a', 'Description': 'Identify and summarize essential nutrients required for animal health and analyze each nutrient’s role in growth and performance.'}, {'Code': 'AS.03.01.01.b', 'Description': 'Differentiate between nutritional needs of animals in different growth stages and production systems (e.g.  Gestation,  natural,  organic,  etc.).'}, {'Code': 'AS.03.01.01.c', 'Description': 'Assess nutritional needs for an individual animal based on its growth stage and production system.'}]}description: Title: "Homestead Heroes: An Educational Adventure"
+
+Characters:
+
+1. Player - An aspiring young farmer who has moved to the countryside with a task to manage and revive an old and abandoned farm. 
+
+2. Farmer Finn - An experienced and wise farmer who lives nearby. He is friendly and always ready to give helpful advice and tips to the player, acting as a guide in the game.
+
+3. Various farm animals including cows, pigs, chickens, and sheep. They all have distinct personalities and needs that the player will have to understand and cater to.
+
+Setting: The game is set in a charming and picturesque countryside. The centerpiece is the player's dilapidated farm, which includes farm buildings, pastures, and fields, surrounded by a colorful and lush environment filled with whimsical wildlife.
+
+Gameplay:
+
+After starting the game, the player is introduced to their neglected farm. Farmer Finn, a white-bearded, kind-hearted neighbor, appears and introduces himself. 
+
+Farmer Finn: "Ya know, with a little elbow grease, this ol' place could be quite the marvel. But you've got your work cut out for you. I'll be around if you need some advice."
+
+The gameplay involves daily tasks, including feeding and taking care of the variety of farm animals. The challenge lies in understanding the different nutritional needs of these animals at various stages of their lives, with the objective to raise them healthily and keep them productive. 
+
+For instance, when feeding the calves: 
+
+Farmer Finn message: "Remember, young 'uns like these calves need a good bit of colostrum milk early on, keeps 'em healthy!"
+
+Each action the user does - feeding, cleaning, and taking care of the farm animals - is accompanied by character dialogues and narrations; this forms a perfect blend of learning and playing as they make their way through the various levels of the game. 
+
+Over time, the player has the opportunity to expand their farm, introducing more animals and even starting to grow crops. This will test and expand their knowledge further, and provide a rewarding sense of progression. Throughout, Farmer Finn, and the animals they've come to know and care for, offer a friendly and engaging way to learn about the principles of farming and animal husbandry. 
+
+In the end, the abandoned homestead flourishes into a productive and bustling farm, painting a picture of the player's learning journey and success in 'Homestead Heroes: An Educational Adventure'.mechanics: Gameplay Mechanics:
+
+1. Farm Management: 
+   - The player starts with a small farm with the option to expand as progress is made in the game.
+   - Initially, the farm will have a few farm animal species, which may include: cows, pigs, chickens, and sheep.
+   - The player will need to manage the feeding, cleanliness, and healthcare of the animals.
+   - The farm will have functional buildings like the barn, chicken coop, and pigsty.
+   
+2. Animal Stats:
+   - Each animal will have two stat bars: 'Health' and 'Growth'. 
+   - 'Health': This status bar determines the well-being of the animal. Factors affecting Health include feeding, cleanliness, and disease management. Health will decrease if these factors are neglected.
+   - 'Growth': This status bar represents the animal's growth from young to mature. It increases over time with proper care and feeding.
+   
+3. Feeding Mechanic:
+   - The player needs to feed the animals the correct type and amount of feed to maintain their health and promote growth.
+   - Different feeds will be made available in the game such as hay, corn, pellets, etc. Each animal will have a preference for a particular feed in different life stages.
+   - An information guide will be provided in the game interface that outlines the nutritional needs of each animal at each stage of their life. 
+   
+4. Production System Mechanic:
+   - Player will also need to select a production system for the farm. The selection can be 'Organic', 'Natural' or 'Conventional'. 
+   - Each production system will influence the type of feed available for the animals, the cost, and the health implications. For example, the 'Organic' system may have pricier feeds, but results in healthier animals and fetches a higher market price.
+   
+5. Progress and Expansion:
+   - As the player masters the care and feeding of an animal, they gain experience points (XP).
+   - Accumulating XP allows the player to level up, which unlocks additional animals and resources.
+   - The player also accumulates earnings from selling healthy, full-grown animals and their produce, which can be used to expand the farm, introduce new animals, and grow crops. 
+
+6. Education and Narration:
+   - Character dialogues and narrations about the care and feeding of each animal serve to educate players on animal husbandry.
+   - Farmer Finn serves as a guide, offering helpful tips to players. For example, introducing calves' need for colostrum or explaining differences in production systems.
+   
+This engaging blend of gaming and learning aims to make 'Homestead Heroes: An Educational Adventure' interesting and educational for all players.game flow: Gameplay Flow:
+
+1. Tutorial (Stage 1): 
+   - Upon launching the game, the player starts with an interactive tutorial guided by Farmer Finn which explains the mechanics of the game including animal nutrition and feeding practices, the importance of proper sanitation, and maintaining animal health. Farmer Finn gives the player their first task of feeding the first cow with hay and milk substitutes based on the animal's age and dietary needs.
+   
+2. Getting Started (Stage 2): 
+    - After the tutorial, the player is given a dilapidated farm to manage with a few farm animals including chickens, pigs, a cow, and a sheep. A limited supply of each type of feed is provided to start. The player can buy additional feed from the in-game store. 
+    - The player needs to monitor each animal's health and growth in the 'Animal Status' section. This helps in making necessary changes regarding food type and quantity. Care needs to be provided in terms of cleanliness and disease prevention, too.
+
+3. Caring and Nurturing (Stage 3):
+    - As the player nurtures the animals and takes care of feeding and sanitation, animals' growth stats start increasing. This progress helps the player gain experience points (XP) which are essential for leveling up in the game. 
+    - Interactive narrative contents are periodically unlocked that provide in-depth information about the specific needs and care related to each type of animal. This will test the player's knowledge and understanding of animal nutrition and health.
+
+4. Expansion and Progression (Stage 4):
+    - Once the player has accumulated adequate XP and resources, they can start expanding their farm and introduce more animals. Also, they can start planting crops like corn and hay that serve as feed for animals, adding a new layer of farming to the gameplay experience. 
+    - Apart from managing the expanded farm, the player needs to balance health and growth of different animals simultaneously. Every time new animals or crops are added, new tips and helpful guidance from Farmer Finn also unlock.
+
+5. Mastery (Final Stage):
+    - The endgame focuses on the player successfully raising a predefined number of animals to adulthood in each production system – Organic, Natural, and Conventional. 
+    - Alongside, the player needs to maintain a thriving farm with healthy animals and productive crops.
+    
+In conclusion, the layers of progressing from the basics of animal nutrition to managing a diverse farm make 'Homestead Heroes: An Educational Adventure' a rewarding gaming experience. Each stage of gameplay is tied with educational content, making it a fun and intuitive learning process.original game: {'Learning Goal Code': 'AS.03.02', 'Description': 'Feed Ration Frenzy is a minigame set in a farmhouse where players must analyze and create balanced feed rations for different types of animals. The game will teach players about the different types of feedstuffs, their nutritional value, and how to select appropriate feedstuffs based on various factors. Players will also learn about the importance of balanced rations, how to appraise feed rations, and how to select and utilize animal feeds for optimal nutrition and economic production. Additionally, the game will educate players on the purpose, impact, and mode of action of feed additives and growth promotants in animal production.', 'Game Mechanics': "The game is divided into different levels, each representing a different type of animal. Players must analyze the nutritional needs of the animal and select the appropriate feedstuffs to create a balanced ration. They must also consider the quality and condition of the feedstuffs, the animal's growth stage, and the use of feed additives and growth promotants. The game includes interactive elements such as drag-and-drop to select feedstuffs, sliders to adjust the quantity of each feedstuff, and buttons to select feed additives and growth promotants. The game provides immediate feedback on the player's choices and offers hints and tips to guide them.", 'Game Flow': "The player starts the game by selecting a level. They are then presented with the nutritional needs of the animal and a variety of feedstuffs. They must analyze the information and select the appropriate feedstuffs to create a balanced ration. They can adjust the quantity of each feedstuff using sliders and select feed additives and growth promotants using buttons. Once they are satisfied with their choices, they can submit their ration for evaluation. The game provides feedback on the player's choices and offers hints and tips to improve their ration. The player can then adjust their ration based on the feedback and resubmit it for evaluation. The game continues until the player has created a balanced ration that meets the nutritional needs of the animal.", 'Sub-Goals': ['AS.03.02.01.a', 'AS.03.02.01.b', 'AS.03.02.01.c', 'AS.03.02.02.a', 'AS.03.02.02.b', 'AS.03.02.02.c', 'AS.03.02.03.a', 'AS.03.02.03.b']}description: Title: Feed Ration Frenzy: Farmyard Challenge
+
+Setting: The game is set on the beautiful and constantly bustling Heartland Farm. The farm has various sections dedicated to different types of livestock including cows, goats, pigs, and chickens, each boasting of diverse flora and fauna. In the center of it all is the grand, rustic farmhouse, where all the planning and strategies happen. The farmhouse has three main sections - the office where various feed samples are analyzed, the storehouse where all the feedstuffs are stored, and an advanced laboratory for examining the effect of different feed additives and growth promotants on animal nutrition.
+
+Characters: There are three main characters –
+
+1. Farmer Joe: A spry and knowledgeable old farmer who's an expert in raising various types of livestock. Despite his years, he's always willing to learn and adapt to new farming strategies and practices.
+   
+2. Annie, The Agricultural Scientist: She's a smart, young scientist who's always excited to teach about different feedstuffs' nutritional values and how to integrate them for optimal nutrition. She also runs the laboratory.
+
+3. Chip: Chip is the eager and hardworking young player, willing to learn all about feed ration and animal nutrition under Farmer Joe and Annie's tutelage.
+
+Dialogue & Actions:
+
+The game begins with Farmer Joe introducing the farm and welcoming the user, who will be playing as Chip.
+
+Farmer Joe: "Welcome to Heartland Farm, Chip! We’re all about raising healthy livestock here. Let's head over to the office to discuss feedstuff."
+
+Once in the office, Joe and Chip start analyzing different types of feedstuffs, discussing their nutritional values.
+
+Farmer Joe: "Let's have a look at these feed samples. Can you tell which one is cornmeal?”
+
+After discussing the feedstuffs, Annie takes over to talk about more advanced topics like feed additives and the role they play in animal nutrition in the lab.
+
+Annie: "These are feed additives, Chip. Do you know what they are used for?"
+
+The player will then be tasked with using the information they've learned to create a balanced feed ration for a set of animals. They'll have to consider factors like the animal's species, age, and weight, along with the feedstuff's nutritional value, the economic aspects of feeding different feedstuffs, and optimal feed additives to use. If the correct decisions are made, the health and productivity of the livestock on Heartland farm will improve, leading to higher game scores.
+
+Game Progression: As the game progresses, the player will unlock more complex feeding scenarios and be introduced to a wider array of feed types, additives, and livestock species.mechanics: Gameplay Mechanics:
+
+1. Feed Analysis and Selection: Players start each level by analyzing different feed samples provided. They'll review nutritional information about each feedstuff, which can be accessed by clicking on the sample. Once players have determined the optimal feedstuff, they can select it using a drag-and-drop mechanism into a "Feed Basket".
+
+2. Quantity Adjustment: After choosing the feedstuff, players will need to determine the correct amount for the specific animal. Using a slider, players can adjust the quantity of each feedstuff within the basket. Information about recommended ranges for each animal type, based on factors like age and weight, will be available to guide the player.
+
+3. Additive and growth promotants selection: Next, players will select appropriate feed additives and growth promotants. These can be chosen by clicking on the desired option from a visible list. Players will have to consider factors such as the animal's growth stage and nutritional needs.
+
+4. Feedback and Guidance: As soon as players finalize the feed ration, the game will provide immediate feedback on how balanced the ration is through a visual "Health Meter" and "Productivity Meter". These meters, shown in percentage, reflect the potential health and productivity of the livestock based on the chosen ration. Higher meter values indicate a well-balanced ration that will lead to healthier, more productive animals.
+
+5. Hints System: A help option or 'Hints' button is available if players find difficulty in decision making. Hints include tips from Farmer Joe and Annie to guide the player towards the correct choices for a balanced ration. However, the use of 'Hints' has a limit per level to maintain the challenge of the game.
+
+6. Progress Tracker: A progress tracker displays completed levels and livestock that already have their balanced feed ration. Unlocked levels that represent more complex scenarios, wider array of feed types, additives, and new livestock species will also be visible in the tracker. This will give players a visual representation of their progress and achievements.
+
+7. Scoring and Rewards: The game has a scoring system based on the health and productivity of the livestock as shown on the meters. Higher scores represent better rationing decisions. Hitting certain score thresholds in each level will lead to rewards like unlocking special feedstuffs or earning extra hints.game flow: Game Flow:
+
+1. Level Selection: The player starts the game from the main screen, where they can select a level to play. In the early stages of the game, only the first level "Cows" is unlocked, while the others - "Goats", "Pigs", "Chickens" - are locked and can be accessed as the player progresses through the game.
+
+2. Introduction to Nutritional Needs: Upon selecting a level, the game takes the player to the corresponding livestock section of the Heartland Farm. Here, Annie provides an introduction to the nutritional needs of the specific type of livestock selected, such as the ideal carbohydrate, protein, and fat content required.
+
+3. Feedstuff Analysis: Annie then presents a variety of feedstuffs to the player, each with its nutrient composition displayed. The player must review this information carefully to understand how each feedstuff contributes to meeting the animals' nutritional needs.
+
+4. Ration Building: The player is then tasked with creating a balanced feed ration for their selected livestock. This involves dragging and dropping chosen feedstuffs into a Feed Basket. A virtual scale set beside the basket indicates if the player is meeting or exceeding the nutritional needs as they add more feedstuffs.
+
+5. Quantity Adjustment: The player can adjust the quantity of each feedstuff in the Feed Basket using sliders. The scale adjusts accordingly, helping the player to align the feed ration with the nutritional requirements.
+
+6. Additives Selection: Towards the right of the screen lie the feed additives and growth promotants. The player must select appropriate options using buttons to finalize the ration.
+
+7. Ration Evaluation: Upon pressing a "submit" button, the game moves to an evaluation screen. Here, the Health and Productivity Meters display scores based on how well the created ration meets the livestock's nutritional needs.
+
+8. Feedback and Adjustments: If the meters are not at 100%, the game provides constructive feedback and some tips. These may suggest which feedstuff to increase or remove or what additives to use.
+
+9. Re-evaluation and Progress: Based on the feedback, players can tweak their ration and re-submit it. If the meters then reach 100%, it means the player has successfully created a balanced ration and progresses to the next level. Otherwise, the process loops from step 8 until a balance is reached. Unlocks, updates to the progress tracker, and reward earnouts occur upon successfully completing a level.
+
+10. Level-Up: Once a level is completed, the player can select the next level in the main screen. Each new level introduces new livestock with different nutritional needs, and potentially new feedstuffs and additives, increasing the complexity and challenge of the game. Repeat steps 2-9 until all levels are completed.original game: {'Learning Goal Code': 'CCSS.MATH.CONTENT.HSA.SSE.1', 'Description': 'Farmhouse Fractions: A game set in a farmhouse where the player must interpret expressions that represent a quantity in terms of its context.', 'Game Mechanics': 'The player will be given a series of tasks to perform on the farm, each task represented by an algebraic expression. The player must interpret the expression in the context of the task and perform the correct action.', 'Game Flow': "The player starts in the farmhouse and is given a task, such as 'Collect 2x the number of eggs as there are chickens'. The player must interpret the expression, '2x', in the context of the task, and then perform the action by clicking on the correct number of eggs. The player progresses through increasingly complex tasks, interpreting and acting on more complex expressions.", 'Sub-Goals': [{'Sub-Goal Code': 'CCSS.MATH.CONTENT.HSA.SSE.1.a', 'Description': 'Interpret parts of an expression, such as terms, factors, and coefficients.', 'Game Mechanics': "The player will encounter tasks that require them to interpret parts of an expression. For example, they may need to collect '3x - y' eggs, where 'x' is the number of chickens and 'y' is the number of ducks. The player must interpret the terms, factors, and coefficients to perform the task correctly.", 'Game Flow': 'The player is given a task with an expression that includes terms, factors, and coefficients. The player must interpret these parts in the context of the task and perform the correct action.'}, {'Sub-Goal Code': 'CCSS.MATH.CONTENT.HSA.SSE.1.b', 'Description': 'Interpret complicated expressions by viewing one or more of their parts as a single entity.', 'Game Mechanics': "The player will encounter tasks that require them to interpret complicated expressions. For example, they may need to feed the animals 'P(1+r)n' units of food, where 'P' is the number of pigs, 'r' is the growth rate of the food, and 'n' is the number of days. The player must interpret the expression as a whole to perform the task correctly.", 'Game Flow': 'The player is given a task with a complicated expression. The player must interpret the expression as a whole in the context of the task and perform the correct action.'}]}description: Title: Farmhouse Fractions: The Crop Conundrum
+
+SETTING:
+This stimulating educational game is set in an idyllic countryside, in a sprawling, old wooden farmhouse with a vast verdant farmland. The air is filled with the sound of buzzing bees, clucking chickens and the gentle rustle of the wind in the tall corn stalks.
+
+CHARACTERS:
+1. Old Farmer Joe: He is the friendly, hardworking owner of the farm, with a knack for making learning fun. With his straw hat and overalls, he's a wise mentor who needs help with managing his farm.
+
+2. Ruth: The intelligent, tech-savvy granddaughter of Farmer Joe, visiting him for the summer.
+
+USER-PLAYER:
+The user takes on the role of Ruth autonomously navigating through the different tasks on the farm. They must interact with Farmer Joe and the farm to learn, interpret and apply fractions in various real-life settings.
+
+STORY & ACTION:
+One day, Farmer Joe gives Ruth a challenge, "If you help me manage the fractions and quantities on my farm, I’ll let you fly my vintage crop dusting airplane". Our user, as Ruth, thus embark on a mission to crack the ‘Farmhouse Fraction’ conundrums.
+
+DIALOGUE AND SCENARIO:
+
+Farmer Joe: "Ruth, I've harvested 4/5ths of my apple orchard and have around 80 apples. Can you work out how many apples are there in the entire orchard?"
+
+Ruth navigates through the lush apple orchard, uses her knowledge of fractions, and takes help from interactive fraction-related cues around the farm. For instance, she sees a wooden sign: "1/5th means one part of five equal parts."
+
+So, as Ruth, the user calculates the total quantity of apples in the apple orchard by dividing the quantity harvested by 4/5 to get the total.
+
+The user also helps Farmer Joe divide his chicken feed among the chickens. Farmer Joe might say, "Ruth, I've got 3/4 of a sack of chicken feed. If I want to divide it equally among my 8 chickens, how much feed does each one get?" The user then has to perform the operation and drop the correct quantity of feed into each chicken’s box.
+
+The entire game involves such exciting and engaging interactions and activities that enable our user to deal with fractions via a context-based approach. As the user solvers each puzzle, they receive points and Farmer Joe's insightful tips. 
+
+ENDINGS:
+Once every task around the Farmhouse has been successfully completed, Ruth gets to fly Farmer Joe's beloved vintage crop duster- an exciting reward concluding the fruitful day of learning at the Farmhouse.mechanics: GAME MECHANICS:
+
+1. TASK ASSIGNMENT:
+Every in-game day, Farmer Joe presents the player (as Ruth) with a set of tasks. Each task is represented by an algebraic expression that incorporates fractions. For instance, "I’ve harvested 4/5ths of my apple orchard and have around 80 apples. Can you work out how many apples are there in the entire orchard?"
+
+2. TASK NAVIGATION:
+The player navigates Ruth to the location of the task via a point-and-click mechanism. In this scenario, Ruth needs to navigate to the apple orchard.
+
+3. TASK INTERPRETATION:
+The player interprets the task's algebraic expression. Appropriate interactive visual aids, such as fraction pies or bars, are present in the game environment to support them. In this case, figuring out that she needs to divide the number of apples harvested (80) by 4/5 to get the total number of apples in the orchard.
+
+4. TASK IMPLEMENTATION:
+The player performs the calculated action, indicating the result somehow, like typing the number or selecting it from multiple choices. If the answer is correct, Farmer Joe will confirm it, the task will be marked as completed, and Ruth will earn points.
+
+5. IN-GAME FEEDBACK:
+Positive feedback and useful tips will be provided by Farmer Joe throughout the game, offering a friendly and encouraging environment.
+
+6. REPEAT PROCESS:
+After successfully completing a task, the game moves on to the next assignment. The player will continue to work through the list of tasks given by Farmer Joe in this way.
+
+7. REWARDING GAME END:
+Once all tasks have been successfully completed within a game day, the player is rewarded with a unique experience; Ruth gets to pilot Farmer Joe's beloved vintage crop duster over the beautiful farmland. The game then resets, offering new fraction-based conundrums for Ruth to solve the following day.
+
+8. LEADERBOARD & PROGRESS TRACKING:
+The game maintains a point-based leaderboard, and actions performed correctly on the first attempt fetch more points. Progress tracking on individual learners lets them see how they have improved their understanding of fractions over time, keeping them motivated to continue playing.game flow: GAME FLOW:
+
+START:
+A scenic view of the wooden farmhouse is the starting screen. Ruth, standing in the idyllic surroundings, is ready for her educational exploration. Farmer Joe greets you, and the game begins with the first task: "Collect 2x the number of eggs as there are chickens."
+
+LEVEL 1: 
+The player first navigates Ruth to the chicken coop by clicking on the specified area on the game map. On reaching the coop, Ruth counts the chickens which might be, say 12 in number. The player must then interpret the expression '2x' in the context of the task, i.e., they need to collect twice the number of eggs as there are chickens. Hence, 2 * 12 means 24 eggs need to be collected.
+
+INTERACTION:
+To collect the eggs, the player clicks on each egg in the coop. Every successful click adds an egg to Ruth's collection. The player must click accurately and swiftly to effectively complete the task, making it engaging and exciting. Upon collecting the correct number of eggs, Farmer Joe responds affirmatively, adding points to Ruth's score.
+
+LEVEL PROGRESSION:
+As the game progresses, tasks become increasingly complex. For instance, a task might be, "There are 3 apple trees in a row, each has twice as many apples as the single tree by the barn. If the single tree has 10 apples, how many do the row of trees have in total?" Ruth must navigate to the apple trees, interpret the expression, calculate the correct quantity and then collect the apples.
+
+INCREASING COMPLEXITY:
+The complexity is not just limited to arithmetic operations but can also involve different aspects of fractions. These might include fraction addition/subtraction, comparing fractions or converting between improper fractions and mixed numbers etc. The game could also throw challenges involving distance and time, thus integrating fractions with other mathematical areas.
+
+END OF THE DAY: 
+Finally, after successfully completing all tasks of the day, Ruth gets to fly the vintage crop duster, symbolizing the win and making for an entertaining end to the gaming session. The game then prompts the player if they'd like to advance to the next day of challenges or replay the previous day for better mastery. 
+
+In this way, the game weaves a story of fun, excitement and progressive learning in the setting of a rustic farmhouse, utilizing engaging characters and real-life scenarios.original game: {'Learning Goal Code': 'CCSS.MATH.CONTENT.HSA.SSE.2', 'Description': 'In this minigame, the player will be a farmer who needs to rearrange the structure of the farm to maximize its efficiency. The farm is represented as an expression, and the player needs to identify ways to rewrite it to make it more efficient.', 'Game Mechanics': 'The player will be presented with a series of mathematical expressions representing different arrangements of the farm. The player needs to identify the structure of each expression and find ways to rewrite it. For example, if the farm is represented as x4 - y4, the player can see it as (x2)2 - (y2)2, thus recognizing it as a difference of squares that can be factored as (x2 - y2)(x2 + y2). By doing this, the player can rearrange the farm to make it more efficient.', 'Game Flow': 'The game starts with the player being presented with an expression representing the current arrangement of the farm. The player needs to identify the structure of the expression and find ways to rewrite it. Once the player has successfully rewritten the expression, they can rearrange the farm accordingly. The game continues with increasingly complex expressions, challenging the player to constantly find new ways to rearrange the farm.', 'Sub-Goals': ['Identify the structure of an expression', 'Find ways to rewrite an expression', 'Recognize a difference of squares', 'Factor a difference of squares']}description: Title: Maximizing Farm Efficiency
+
+Characters:
+
+1. Joe - The Main Character/Player
+   Joe is a middle-aged, knowledgeable farmer who has inherited an old farm from his late grandfather. He's committed to turning the legacy into a thriving business.
+
+2. Grandpa Ben - The Virtual Guide
+   Grandpa Ben, now a spirit, assists Joe by giving him hints and nudging him in the right direction. He has an old, gruff voice, full of wisdom and warmth.
+
+Gameplay:
+
+The game starts off with a beautiful sunrise, the farm stretching far into the horizon. The old farm buildings and the vast field, filled with different crops and livestock, are all haphazardly placed, offering plenty of room for improvement in terms of efficiency.
+
+As Joe, the player can walk around the farm (expression) using the arrows on the keyboard, observing the arrangement, taking note of the different elements like crops, livestock, barns, etc. Once they've done a complete round, voices echo in the wind, and Grandpa Ben's spirit appears, advising them about making the farm more efficient by rearranging certain elements. 
+
+Dialogues:
+
+Grandpa Ben: “Joe, we need to rethink this farm layout, maximize what we have. Just like solving an equation, each element of the farm has its place...”
+
+Actions:
+
+By clicking on each element, the player highlights it and a small box appears, showing mathematical operations like addition, subtraction, multiplication, etc. The user has to drag and drop the elements to new locations, employing the operations to maximize efficiency.
+
+For example, you could learn that planting corn (represented by "C") near the river (represented by "R") yields more crops (R*C). Thus, the player would move the corn farm near the river to make it more efficient.
+
+Investing in more chickens (Ch) might lead to an increased number of eggs (Eg), but also leads to more feed being consumed (F), therefore, the efficiency could be given by (Ch*Eg)/F.
+
+The game is interactive, allowing the player to try different arrangements. They're scored on their farm’s output given the efficiency of their configuration. They can also compare scores with their friends who are also trying to optimize their farms.
+
+The farm is your oyster, and every game level promotes you to visualize and execute operation strategies, enabling the player to master the art of mathematical expressions and optimization in a fun, and a fulfilling manner. 
+
+Throughout the game, Joe, with the guidance of Grandpa Ben and the player's actions, will work towards turning an inheritance into a beacon of agricultural ingenuity, weaving a tale of growth, commitment, and efficient farming. 
+
+In "Maximizing Farm Efficiency", not only does one solve a crucial issue that real-life farmers grapple with, but they also learn and reinforce their mathematical skills disguised in the lush green fields and the warm sunsets of the farmlands.mechanics: Gameplay Mechanics:
+
+1. Movement Mechanic:
+   The player is able to navigate the farm using the Arrow Keys or WASD on the keyboard. The main character's (Joe's) movement is 2D, allowing the player to move up, down, left, or right around the farm.
+
+2. Interaction Mechanic:
+   The player can interact with different elements of the farm by clicking on them. Each element (crop, livestock, barn, etc.) triggers a pop-up box displaying a mathematical expression representing the current arrangement/efficiency. 
+
+3. Expression Recognition Mechanic:
+   Each mathematical expression presented to the player symbolizes different configurations achievable on the farm. The player must decipher the structure of this expression. This might involve recognizing different mathematical formulas or structures, such as factoring, or the difference of squares (e.g. given an expression x4 - y4, it can be rewritten as (x2+y2)(x2-y2)).
+
+4. Rearrangement Mechanic:
+   Once the player identifies the structure of the expression, they'll need to "rewrite" it through rearranging the farm elements. This is done by clicking, dragging, and dropping the elements in relevant positions (signified by designated drop zones on the screen). Players need to logically perceive the benefits of this mathematical organization in a practical farming scenario - such as moving a specific crop (e.g., corn) to a beneficial location (e.g., near a river).
+
+5. Calculated Efficiency Mechanic:
+   The efficiency of the farm after each rearrangement is automatically recalculated and presented to the user as a new mathematical expression. The player's purpose is to optimize this efficiency value, promoting them to experiment with a variety of configurations.
+
+6. Score Comparison Mechanic:
+   After maximizing their farm’s efficiency, players receive a score based on their performance. They can compare this score with their friends' scores, promoting a competitive element in the gameplay. The leaderboard is accessible at all times for players to keep a tab on their standing.
+
+7. Tutorial Guide Mechanic:
+   Grandpa Ben acts as a helper NPC (Non-Player Character), giving the player hints or guidance when required. This feature is especially useful for beginners who are getting familiar with the game and its mechanics. His advice can be triggered by clicking on his spirit when he appears on the screen.game flow: Game Flow:
+
+Level One: Introduction to Farm Expressions
+
+The game starts with a beautiful dawn breaking over the sprawling farm, the land filled with potential and waiting to be adapted. Joe, the player character, looks around the farm as a mathematical expression appears on the screen, representing the current farm structure.
+
+The first expression is a simple one, making it easy for beginners to understand the concept. It could be represented in the form of a simple equation such as "P+L=10" where 'P' represents pigs and 'L' signifies lambs. The figure signifies the total number of animals.
+
+The player is supposed to figure out how to best rearrange these elements (Pigs and Lambs) to maximize their output. This could mean interpreting the expression to mean that having the same number of pigs and lambs would result in a total of ten, hence, the most efficient outcome would be to have five pigs and five lambs.
+
+Level Two: Increased Complexity-Introduction to Multiplication
+As the player progresses through the game, the expressions escalate in complexity. For instance, the player could be given an expression such as "C*W=30", where 'C' represents corn crops, and 'W' signifies the water source. Here multiplication could indicate the potential productivity of the corn crops when positioned near the water source, yielding 30 units.
+
+The player needs to decide how many corn crops should be planted near each water source for optimum productivity, hence introducing strategic planning in the farming structure.
+
+Level Three onwards: Division, Subtraction, and Complex Configurations
+The complexity of the expressions continues to grow as the player advances. The subsequent levels could introduce more complex operations, such as division and subtraction, requiring the player to think more about how they allocate their resources.
+
+For example, one of the subsequent levels could present an expression such as "(Ch*Eg)/F > 20" where 'Ch' signifies chickens, 'Eg' represents eggs produced, and 'F' denotes the consumed feed. This suggests the optimization goal is to have a chicken-egg to feed ratio greater than 20. The player would need to configure their chickens, egg production, and feed allocation to meet this objective.
+
+Throughout the levels, the support from Grandpa Ben is constant, he appears from time to time to help guide the player, providing hints and strategies necessary to decode the expression and help maximize the farm's efficiency.
+
+In progressively complex arrangements and harder equations, players are encouraged to employ abstract and logical thinking to figure out the most efficient way to arrange their farm, given the restrictions and multiplying consequences. 
+
+Remember, the goal remains – yield the maximum output from the farm, apply mathematical concepts, learn and grow alongside Joe and his picturesque, thriving farm.
