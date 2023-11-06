@@ -2,7 +2,7 @@ import os
 import openai
 import pandas as pd
 
-openai.api_key = "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"
+openai.api_key = ""
 
 data = pd.read_csv('testData.csv')
 data.dropna()
