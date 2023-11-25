@@ -6,7 +6,7 @@ from sample import snake_game
 from new_game import checkers_game
 ###import more game classes from files ####
 
-from game0 import animal_game
+from games.game0 import animal_game
 #setup
 pygame.init()
 screen = pygame.display.set_mode((1280, 720))
