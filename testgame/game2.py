@@ -1,106 +1,135 @@
+from tkinter import font
 import pygame
 import sys
 
-class Farm:
-    def __init__(self, water=100, air=100, soil=100, plants=100, insects=100):
-        self.water = water
-        self.air = air
-        self.soil = soil
-        self.plants = plants
-        self.insects = insects
-        self.money = 0
+# Initialize pygame
+pygame.init()
 
-    def fertilize(self, amount):
-        self.soil -= amount
-        self.water -= amount
-        self.money += 1
-        return self.status()
+# Set up display
+SCREEN_WIDTH, SCREEN_HEIGHT = 800, 600
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+pygame.display.set_caption("The Daily Harvest")
 
-    def irrigate(self, amount):
-        self.water -= amount
-        self.soil += 0.5 * amount
-        self.money += 1
-        return self.status()
+# Set up colors
+WHITE = (255, 255, 255)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
 
-    def pesticide(self, amount):
-        self.insects -= amount
-        self.air -= amount
-        self.money += 1
-        return self.status()
+# Game variables
+running = True
+farm_products = {'wheat': False, 'corn': False}
+store_inventory = []
 
-    def status(self):
-        return (f"Water: {self.water}\nAir: {self.air}\nSoil: {self.soil}\nPlants: {self.plants}\nInsects: {self.insects}\nMoney: {self.money}\n")
+font = pygame.font.SysFont(None, 24)
+# Load images
+# wheat_img = pygame.image.load('wheat.png')  # Placeholder for actual game assets
+
+# New game variable to keep track of sales
+sales_goal = {'wheat': 5, 'corn': 5}
+current_sales = {'wheat': 0, 'corn': 0}
+
+def check_win_condition():
+    # Check if current sales have reached the goal for both products
+    for product in sales_goal.keys():
+        if current_sales[product] < sales_goal[product]:
+            return False
+    return True
+
+def draw_farm_side():
+    wheat_color = (242, 221, 107)  # Lighter color representing wheat
+    corn_color = (255, 255, 0)  # Yellow color representing corn
+    
+    farm_wheat_area = pygame.Rect(0, 0, SCREEN_WIDTH//2, SCREEN_HEIGHT//2)
+    farm_corn_area = pygame.Rect(0, SCREEN_HEIGHT//2, SCREEN_WIDTH//2, SCREEN_HEIGHT//2)
+    
+    pygame.draw.rect(screen, wheat_color, farm_wheat_area)
+    pygame.draw.rect(screen, corn_color, farm_corn_area)
+    
+    # Draw labels for wheat and corn areas
+    wheat_text = font.render('Wheat Area', True, WHITE)
+    corn_text = font.render('Corn Area', True, WHITE)
+    
+    # Calculate center position for the text labels
+    wheat_text_rect = wheat_text.get_rect(center=(SCREEN_WIDTH//4, SCREEN_HEIGHT//4))
+    corn_text_rect = corn_text.get_rect(center=(SCREEN_WIDTH//4, 3*SCREEN_HEIGHT//4))
+    
+    # Blit the text labels on screen
+    screen.blit(wheat_text, wheat_text_rect)
+    screen.blit(corn_text, corn_text_rect)
+
+def draw_town_side():
+    town_side = pygame.Rect(SCREEN_WIDTH//2, 0, SCREEN_WIDTH//2, SCREEN_HEIGHT)
+    pygame.draw.rect(screen, BLUE, town_side)
+    # More detailed town drawing would go here
+
+def draw_store_inventory():
+    y_offset = 0
+    for item in store_inventory:
+        text = font.render(item, True, WHITE)
+        screen.blit(text, (SCREEN_WIDTH//2 + 10, 10 + y_offset))
+        y_offset += 30
+
+def handle_farm_interaction(x, y):
+    # Check which part of the farm was clicked
+    # Assume the left half of the screen is split into top half for wheat and bottom half for corn
+    farm_height = SCREEN_HEIGHT
+    wheat_area = pygame.Rect(0, 0, SCREEN_WIDTH//2, farm_height/2)
+    corn_area = pygame.Rect(0, farm_height/2, SCREEN_WIDTH//2, farm_height/2)
+    
+    if wheat_area.collidepoint(x, y):
+        # The user clicked on the wheat area
+        farm_products['wheat'] = True  # The wheat is now harvested
+    elif corn_area.collidepoint(x, y):
+        # The user clicked on the corn area
+        farm_products['corn'] = True  # The corn is now harvested
 
 
-def display_notifications(screen, font, notifications):
-    notification_y = 30
-    for notification in notifications:
-        text_notification = font.render(notification, True, (0, 0, 0))
-        screen.blit(text_notification, (220, notification_y))
-        notification_y += 30
+def handle_town_interaction(x, y):
+    town_height = SCREEN_HEIGHT
+    store_wheat_area = pygame.Rect(SCREEN_WIDTH/2, 0, SCREEN_WIDTH/2, town_height/2)
+    store_corn_area = pygame.Rect(SCREEN_WIDTH/2, town_height/2, SCREEN_WIDTH/2, town_height/2)
+    
+    if store_wheat_area.collidepoint(x, y) and farm_products['wheat']:
+        store_inventory.append('wheat')
+        farm_products['wheat'] = False
+        current_sales['wheat'] += 1  # Increment wheat sales
+    elif store_corn_area.collidepoint(x, y) and farm_products['corn']:
+        store_inventory.append('corn')    
+        farm_products['corn'] = False
+        current_sales['corn'] += 1  # Increment corn sales
 
+clock = pygame.time.Clock()
+# Main game loop
+while running:
+    screen.fill(WHITE)
+    
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        
+        if event.type == pygame.MOUSEBUTTONDOWN:
+            x, y = event.pos
+            if x < SCREEN_WIDTH // 2:
+                print("farm")
+                # The user clicked on the farm side
+                handle_farm_interaction(x, y)
+            else:
+                print("town")
+                # The user clicked on the town side
+                handle_town_interaction(x, y)
+    
+    draw_farm_side()
+    draw_town_side()
+    draw_store_inventory()
+    
+    if check_win_condition():
+        print("Congratulations, you have met the sales goal for all products!")  # You can replace this with a proper in-game message or screen.
+        running = False
+    
+    pygame.display.update()
+    
+    # Limit the frame rate to 60 frames per second
+    clock.tick(60)
 
-def game():
-    farm = Farm()
-
-    pygame.init()
-    screen = pygame.display.set_mode((800, 600))
-    pygame.display.set_caption('Farm Game')
-
-    background = pygame.image.load('testgame/background2.jpg')  # Replace 'your_background_image.jpg' with your image file
-    background = pygame.transform.scale(background, (800, 600))  # Adjust the size if needed
-
-    font = pygame.font.Font(None, 24)
-    notifications = []
-
-    fertilize_button = pygame.Rect(50, 50, 150, 50)
-    irrigate_button = pygame.Rect(50, 120, 150, 50)
-    pesticide_button = pygame.Rect(50, 190, 150, 50)
-
-    while farm.water > 0 and farm.air > 0 and farm.soil > 0 and farm.insects > 0:
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                pygame.quit()
-                sys.exit()
-            elif event.type == pygame.MOUSEBUTTONDOWN:
-                mouse_pos = event.pos
-                if fertilize_button.collidepoint(mouse_pos):
-                    notifications.append(farm.fertilize(20))
-                elif irrigate_button.collidepoint(mouse_pos):
-                    notifications.append(farm.irrigate(20))
-                elif pesticide_button.collidepoint(mouse_pos):
-                    notifications.append(farm.pesticide(20))
-
-        screen.blit(background, (0, 0))  # Display background image
-
-        pygame.draw.rect(screen, (0, 255, 0), fertilize_button)
-        pygame.draw.rect(screen, (0, 0, 255), irrigate_button)
-        pygame.draw.rect(screen, (255, 0, 0), pesticide_button)
-
-        text_fertilize = font.render('Fertilize', True, (0, 0, 0))
-        text_irrigate = font.render('Irrigate', True, (0, 0, 0))
-        text_pesticide = font.render('Pesticide', True, (0, 0, 0))
-
-        screen.blit(text_fertilize, (60, 60))
-        screen.blit(text_irrigate, (60, 130))
-        screen.blit(text_pesticide, (60, 200))
-
-        # Display notifications in the game window
-        display_notifications(screen, font, notifications)
-
-        pygame.display.flip()
-
-    else:
-        notifications.append("Game over. The farm's environment has collapsed due to mismanagement.")
-
-        # Display final notifications before quitting
-        display_notifications(screen, font, notifications)
-        pygame.display.flip()
-
-        # Wait for a few seconds before exiting
-        pygame.time.wait(5000)
-        pygame.quit()
-        sys.exit()
-
-if __name__ == "__main__":
-    game()
+pygame.quit()
+sys.exit()

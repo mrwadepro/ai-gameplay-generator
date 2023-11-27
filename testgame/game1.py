@@ -76,7 +76,7 @@ def draw_buttons():
     pygame.draw.rect(screen, GREEN, (600, 50, 150, 50))
     plant_text = font.render('Plant Crops', True, WHITE)
     #draw the plant sprite
-    plant_sprite = pygame.image.load('decorationSprites/images/Tools/tool (1).png')
+    plant_sprite = pygame.image.load('../decorationSprites/images/Tools/tool (1).png')
     plant_sprite = pygame.transform.scale(plant_sprite, (30, 30))
     screen.blit(plant_sprite, (700, 50))
     screen.blit(plant_text, (610, 60))
@@ -85,7 +85,7 @@ def draw_buttons():
     pygame.draw.rect(screen, BROWN, (600, 150, 150, 50))
     deforest_text = font.render('Deforest', True, WHITE)
     #draw the deforest sprite
-    deforest_sprite = pygame.image.load('decorationSprites/images/Tools/tool (5).png')
+    deforest_sprite = pygame.image.load('../decorationSprites/images/Tools/tool (5).png')
     deforest_sprite = pygame.transform.scale(deforest_sprite, (30, 30))
     screen.blit(deforest_sprite, (700, 150))
     screen.blit(deforest_text, (620, 160))
@@ -158,7 +158,7 @@ def draw_resources():
 
 def draw_environment():
     # Draw the background image
-    background = pygame.image.load('testgame/background.jpg')
+    background = pygame.image.load('./background.jpg')
     background = pygame.transform.scale(background, (800, 600))
     screen.blit(background, (0, 0))
     # Draw the forest area
