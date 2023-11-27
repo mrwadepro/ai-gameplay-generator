@@ -7,7 +7,7 @@ testKey = os.environ.get("API_KEY")
 # in your terminal, please add export API_KEY=<api key>
 def extract_and_save(text, filename):
     # Use a regular expression to find text between triple backticks
-    match = re.search(r'```python(.*?)```', text, re.DOTALL)
+    match = re.search(r'```(?:Python|python)(.*?)```', text, re.DOTALL)
     
     if match:
         extracted_text = match.group(1).strip()
@@ -70,7 +70,8 @@ while (run.status != "completed"):
 #print(run)
 thread_messages = client.beta.threads.messages.list(main_thread.id)
 print(thread_messages.data[0].content)
-extract_and_save(str(thread_messages.data[0].content[0]),"./games/term3.py")
+fileName = input("please enter game file name")
+extract_and_save(str(thread_messages.data[0].content[0]), fileName)
 
 
 
