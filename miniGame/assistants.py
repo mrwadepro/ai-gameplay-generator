@@ -25,7 +25,7 @@ client = OpenAI()
 game_designer = client.beta.assistants.retrieve("asst_ppZYfGoyh6ISVvD5XyLI6Ayu")
 game_developer = client.beta.assistants.retrieve("asst_WgenLJkZXnbFoIfFzpB80eiW")
 software_developer = client.beta.assistants.retrieve("asst_TzwMLh8i8hnVeqDMl9iLhhd6")
-code_reviewer = client.beta.assistants.retrieve("asst_bYXkG2Gy5i1s2lk3d6qpfU1C")
+game_architect = client.beta.assistants.retrieve("asst_l5YcB1wAlvvVIjlzm4Ky7898")
 
 userInput = input("Please enter in your initial learning standard")
 main_thread = client.beta.threads.create()
@@ -51,7 +51,24 @@ while (run.status != "completed"):
     print(t, "game designer ", run.status)
     time.sleep(waitTime)
     t+= waitTime
-    
+
+# run = client.beta.threads.runs.create(
+#   thread_id= main_thread.id,
+#   assistant_id= game_architect.id
+# )
+
+# while (run.status != "completed"):
+#     run = client.beta.threads.runs.retrieve(
+#         thread_id= main_thread.id,
+#         run_id= run.id
+#     )
+#     print(t , "game architect ",run.status)
+#     time.sleep(waitTime)
+#     t+= waitTime
+
+
+
+
 run = client.beta.threads.runs.create(
   thread_id= main_thread.id,
   assistant_id= game_developer.id
