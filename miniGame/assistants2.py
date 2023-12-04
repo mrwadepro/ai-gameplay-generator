@@ -2,6 +2,7 @@ from openai import OpenAI
 import os
 import time
 import re
+import imageGen
 
 testKey = os.environ.get("API_KEY")
 # in your terminal, please add export API_KEY=<api key>
@@ -129,7 +130,7 @@ print(thread_messages.data[0].content)
 thread_message = client.beta.threads.messages.create(
   main_thread.id,
   role="user",
-  content="Use the above instructions to modify the code and create a working GUI game. Be sure to include art for the background and the buttons in the game.  The art and icons should all be scaled so that they show up as the correct size in the GUI.",
+  content="Use the above instructions to modify the code and create a working GUI game. Be sure to include code that allows the buttons and background to use art assets so that the GUI is aesthetically pleasing.",
 )
 
 run = client.beta.threads.runs.create(
@@ -205,7 +206,12 @@ while (run.status != "completed"):
 
 # Print the output of the game artist
 thread_messages = client.beta.threads.messages.list(main_thread.id)
-print(thread_messages.data[0].content)
+print(thread_messages.data[0].content[0].split("\n"))
+
+# Create images using image gen and the prompts from the game artist
+prompts = thread_messages.data[0].content[0].split("\n")
+for i in range(len(prompts)):
+    imageGen.getImage(prompts[i], "image" + str(i) + ".jpg")
 
 
 
