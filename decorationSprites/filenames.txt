@@ -321,3 +321,8 @@ furniture (43).png
 deco (23).png
 furniture (14).png
 tool (5).png
+region1.jpg
+region2.jpg
+region3.jpg
+region4.jpg
+region5.jpg
