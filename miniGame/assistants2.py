@@ -68,7 +68,7 @@ thread_message = client.beta.threads.messages.create(
 run = client.beta.threads.runs.create(
     thread_id= main_thread.id,
     assistant_id= game_architect.id
-    )
+)
 
 while (run.status != "completed"):
     run = client.beta.threads.runs.retrieve(
@@ -101,6 +101,12 @@ while (run.status != "completed"):
     t+= waitTime
 
 #Then gui maker
+thread_message = client.beta.threads.messages.create(
+  main_thread.id,
+  role="user",
+  content="See the above code and modify it to use a GUI instead of a command line interface according to your instructions.",
+)
+
 run = client.beta.threads.runs.create(
   thread_id= main_thread.id,
   assistant_id= gui_maker.id
@@ -114,6 +120,10 @@ while (run.status != "completed"):
     print(t , "gui maker ",run.status)
     time.sleep(waitTime)
     t+= waitTime
+
+# Log output
+thread_messages = client.beta.threads.messages.list(main_thread.id)
+print(thread_messages.data[0].content)
 
 #Then programmer
 thread_message = client.beta.threads.messages.create(
@@ -136,6 +146,41 @@ while (run.status != "completed"):
     time.sleep(waitTime)
     t+= waitTime
 
+# Log output
+thread_messages = client.beta.threads.messages.list(main_thread.id)
+print(thread_messages.data[0].content)
+
+#Then documenter
+thread_message = client.beta.threads.messages.create(
+  main_thread.id,
+  role="user",
+  content="Please document the code from earlier as per your instructions.",
+)
+
+run = client.beta.threads.runs.create(
+    thread_id= main_thread.id,
+    assistant_id= documenter.id
+)
+
+while (run.status != "completed"):
+    run = client.beta.threads.runs.retrieve(
+        thread_id= main_thread.id,
+        run_id= run.id
+    )
+    print(t , "documenter ",run.status)
+    time.sleep(waitTime)
+    t+= waitTime
+
+# Log output
+thread_messages = client.beta.threads.messages.list(main_thread.id)
+print(thread_messages.data[0].content)
+
+
+#print(run)
+final_messages = client.beta.threads.messages.list(main_thread.id)
+print(final_messages.data[0].content)
+fileName = input("please enter game file name")
+extract_and_save(str(final_messages.data[0].content[0]), fileName)
 
 #Then game artist
 thread_message = client.beta.threads.messages.create(
@@ -161,35 +206,6 @@ while (run.status != "completed"):
 # Print the output of the game artist
 thread_messages = client.beta.threads.messages.list(main_thread.id)
 print(thread_messages.data[0].content)
-
-#Then documenter
-thread_message = client.beta.threads.messages.create(
-  main_thread.id,
-  role="user",
-  content="Please document the code from earlier as per your instructions.",
-)
-
-run = client.beta.threads.runs.create(
-    thread_id= main_thread.id,
-    assistant_id= documenter.id
-)
-
-while (run.status != "completed"):
-    run = client.beta.threads.runs.retrieve(
-        thread_id= main_thread.id,
-        run_id= run.id
-    )
-    print(t , "documenter ",run.status)
-    time.sleep(waitTime)
-    t+= waitTime
-
-
-
-#print(run)
-final_messages = client.beta.threads.messages.list(main_thread.id)
-print(final_messages.data[0].content)
-fileName = input("please enter game file name")
-extract_and_save(str(final_messages.data[0].content[0]), fileName)
 
 
 
