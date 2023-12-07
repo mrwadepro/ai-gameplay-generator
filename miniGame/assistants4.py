@@ -152,7 +152,7 @@ print(thread_messages.data[0].content)
 thread_message = client.beta.threads.messages.create(
   main_thread.id,
   role="user",
-  content="Use the above instructions to modify the code and create a working GUI game. Be sure to include code that allows the buttons and background to use art assets so that the GUI is aesthetically pleasing.  The art and icons should all be scaled so that they show up as the correct size in the GUI.",
+  content="Use the above instructions to modify the game developer's terminal game code and create a working GUI game. Be sure to include code that allows the buttons and background to use art assets so that the GUI is aesthetically pleasing.  The art and icons should all be scaled so that they show up as the correct size in the GUI. The result should be a completely functional game that is playable by the user through a GUI. Do not leave any logic incomplete. The game should be completely functional.",
 )
 
 run = client.beta.threads.runs.create(
