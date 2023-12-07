@@ -17,4 +17,4 @@ def getImage(prompt, filename):
         f.write(imgdata)
 
 
-getImage("a small tree", "tree.jpg")
+getImage("an enormous tree", "tree2.jpg")

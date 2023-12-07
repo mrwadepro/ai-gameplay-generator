@@ -53,9 +53,6 @@ documenter = client.beta.assistants.retrieve("asst_zXvoSL8n0hnvDYj3EQWTG1ls")
 
 #Start with game designer
 userInput = input("Please enter in your initial learning standard\n")
-filepathhead = input("Please enter in the name of the project\n")
-os.mkdir(filepathhead)
-filepathhead = filepathhead + "/"
 main_thread = client.beta.threads.create()
 
 thread_message = client.beta.threads.messages.create(
@@ -64,23 +61,9 @@ thread_message = client.beta.threads.messages.create(
   content="Please design a simple mini game for this standard: " + userInput,
 )
 
-run = client.beta.threads.runs.create(
-  thread_id= main_thread.id,
-  assistant_id= game_designer.id
-)
-
 waitTime = 3
 t = 0
-while (run.status != "completed"):
-    run = client.beta.threads.runs.retrieve(
-        thread_id= main_thread.id,
-        run_id= run.id
-    )
-    
-    print(t, "game designer ", run.status)
-    time.sleep(waitTime)
-    t+= waitTime
-
+"""
 #Then game architect
 thread_message = client.beta.threads.messages.create(
   main_thread.id,
@@ -202,15 +185,16 @@ print(thread_messages.data[0].content)
 #print(run)
 final_messages = client.beta.threads.messages.list(main_thread.id)
 print(final_messages.data[0].content)
-extract_and_save(str(final_messages.data[0].content[0]), os.path.join(filepathhead, "run.py"))
-
+fileName = input("please enter game file name")
+extract_and_save(str(final_messages.data[0].content[0]), fileName)
+"""
 
 
 #Then game artist
 thread_message = client.beta.threads.messages.create(
   main_thread.id,
   role="user",
-  content="Check the above code for any art that is needed and create the prompts as per your instructions.",
+  content="Check the above idea for any art that may be needed and create the prompts as per your instructions.",
 )
 
 run = client.beta.threads.runs.create(
@@ -229,23 +213,23 @@ while (run.status != "completed"):
 
 # Print the output of the game artist
 thread_messages = client.beta.threads.messages.list(main_thread.id)
-print(thread_messages.data[0].content)
+print(thread_messages.data[0].content[0])
 
 def extractJSON(text):
-  # Take only the text from the 53rd index to the 17th to last index
-  text = text[52:-16]
-  # Replace any escape sequences with actual characters
-  text = text.replace("\\n", "\n")
-  text = text.replace("\\", "")
-  text = text.replace("\\'", "'")
-  # Convert the text to a JSON object
-  text = json.loads(text)
-  # Return the JSON object
-  return text
+    # Take only the text from the 53rd index to the 17th to last index
+    text = text[52:-16]
+    # Replace any escape sequences with actual characters
+    text = text.replace("\\n", "\n")
+    text = text.replace("\\", "")
+    text = text.replace("\\'", "'")
+    # Convert the text to a JSON object
+    text = json.loads(text)
+    # Return the JSON object
+    return text
 
 prompts = extractJSON(str(thread_messages.data[0].content[0]))
 
 for prompt in prompts:
-  getImage(prompt['prompt'], os.path.join(filepathhead, prompt['fileName']))
+    getImage(prompt['prompt'], prompt['fileName'])
 
 #thread = openai.
