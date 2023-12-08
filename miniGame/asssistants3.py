@@ -51,6 +51,8 @@ documenter = client.beta.assistants.retrieve("asst_zXvoSL8n0hnvDYj3EQWTG1ls")
 
 #Start with game designer
 userInput = input("Please enter in your initial learning standard\n")
+gameName = input("What would you like your game to be called?\n")
+
 main_thread = client.beta.threads.create()
 thread_message = client.beta.threads.messages.create(
   main_thread.id,
@@ -196,8 +198,10 @@ print(thread_messages.data[0].content)
 #print(run)
 final_messages = client.beta.threads.messages.list(main_thread.id)
 print(final_messages.data[0].content)
-fileName = input("please enter game file name")
-extract_and_save(str(final_messages.data[0].content[0]), fileName)
+#fileName = input("please enter game file name")
+gamePath = './games/'+gameName
+os.mkdir('./games/'+gameName)
+extract_and_save(str(final_messages.data[0].content[0]), './games/'+gameName+'/main.py')
 
 #Then game artist
 thread_message = client.beta.threads.messages.create(
@@ -225,7 +229,7 @@ thread_messages = client.beta.threads.messages.list(main_thread.id)
 print(thread_messages.data[0].content)
 
 def extractJSON(text):
-  match = re.search(r'```(?:Python|python)(.*?)```', text, re.DOTALL)
+  match = re.search(r'```(?:JSON|json)(.*?)```', text, re.DOTALL)
   if match:
     extracted_text = match.group(1).strip().encode('raw_unicode_escape').decode('unicode_escape')
     json1_data = json.loads(extracted_text)[0]
@@ -233,8 +237,8 @@ def extractJSON(text):
   else:
     print("No JSON was returned")
 
-labels = extractJSON(thread_messages.data[0].content)
-for p in labels():
-  getImage(p["prompt"], p["fileName"])
+labels = extractJSON(str(thread_messages.data[0].content))
+for p in labels:
+  getImage(p["prompt"], gamePath + p["fileName"])
 
 #thread = openai.

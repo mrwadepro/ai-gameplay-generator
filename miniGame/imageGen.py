@@ -17,4 +17,4 @@ def getImage(prompt, filename):
         f.write(imgdata)
 
 
-getImage("a small tree", "tree.jpg")
+getImage("Please generate a pixel art image of a button suitable for a farming game. This button will be used for player actions so it should be eye-catching and inviting. The dimensions should be 80 pixels wide by 60 pixels tall.", "button.jpg")
